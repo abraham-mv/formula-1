@@ -1,0 +1,226 @@
+"","Pos","No","Driver","Nat","Team","Laps","Time","Gap","Interval","Kph","Best","Lap","gp_name","year"
+"1","1","10","Alberto Ascari","Italy","Scuderia Ferrari","","3:35.400","","","","","","argentine-grand-prix",1953
+"2","2","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","3:36.100","+ 0.700","+ 0.700","","","","argentine-grand-prix",1953
+"3","3","14","Luigi Villoresi","Italy","Scuderia Ferrari","","3:36.500","+ 1.100","+ 0.400","","","","argentine-grand-prix",1953
+"4","4","12","Nino Farina","Italy","Scuderia Ferrari","","3:37.100","+ 1.700","+ 0.600","","","","argentine-grand-prix",1953
+"5","5","4","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","","3:38.500","+ 3.100","+ 1.400","","","","argentine-grand-prix",1953
+"6","6","16","Mike Hawthorn","Great Britain","Scuderia Ferrari","","3:39.400","+ 4.000","+ 0.900","","","","argentine-grand-prix",1953
+"7","7","28","Maurice Trintignant","France","Equipe Gordini","","3:40.400","+ 5.000","+ 1.000","","","","argentine-grand-prix",1953
+"8","8","26","Robert Manzon","France","Equipe Gordini","","3:40.900","+ 5.500","+ 0.500","","","","argentine-grand-prix",1953
+"9","9","8","Oscar Galvez","Argentina","Officine Alfieri Maserati","","3:41.300","+ 5.900","+ 0.400","","","","argentine-grand-prix",1953
+"10","10","32","Carlos Menditeguy","Argentina","Equipe Gordini","","3:41.800","+ 6.400","+ 0.500","","","","argentine-grand-prix",1953
+"11","11","30","Jean Behra","France","Equipe Gordini","","3:42.600","+ 7.200","+ 0.800","","","","argentine-grand-prix",1953
+"12","12","20","Alan Brown","Great Britain","Cooper Car Co","","3:43.200","+ 7.800","+ 0.600","","","","argentine-grand-prix",1953
+"13","13","24","Adolfo Schwelm Cruz","Argentina","Cooper Car Co","","3:43.700","+ 8.300","+ 0.500","","","","argentine-grand-prix",1953
+"14","14","34","Pablo Birger","Argentina","Equipe Gordini","","3:43.800","+ 8.400","+ 0.100","","","","argentine-grand-prix",1953
+"15","15","6","Felice Bonetto","Italy","Officine Alfieri Maserati","","3:44.200","+ 8.800","+ 0.400","","","","argentine-grand-prix",1953
+"16","16","22","John Barber","Great Britain","Cooper Car Co","","3:46.800","+ 11.400","+ 2.600","","","","argentine-grand-prix",1953
+"17","1","32","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","2:40.100","","","163.697","","","swiss-grand-prix",1953
+"18","2","46","Alberto Ascari","Italy","Scuderia Ferrari","","2:40.700","+ 0.600","+ 0.600","163.086","","","swiss-grand-prix",1953
+"19","3","24","Nino Farina","Italy","Scuderia Ferrari","","2:42.600","+ 2.500","+ 1.900","161.180","","","swiss-grand-prix",1953
+"20","4","8","Maurice Trintignant","France","Equipe Gordini","","2:43.800","+ 3.700","+ 1.200","160.000","","","swiss-grand-prix",1953
+"21","5","36","Onofre Marimon","Argentina","Officine Alfieri Maserati","","2:44.500","+ 4.400","+ 0.700","159.319","","","swiss-grand-prix",1953
+"22","6","28","Luigi Villoresi","Italy","Scuderia Ferrari","","2:44.600","+ 4.500","+ 0.100","159.222","","","swiss-grand-prix",1953
+"23","7","26","Mike Hawthorn","Great Britain","Scuderia Ferrari","","2:48.100","+ 8.000","+ 3.500","155.907","","","swiss-grand-prix",1953
+"24","8","42","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","2:49.900","+ 9.800","+ 1.800","154.255","","","swiss-grand-prix",1953
+"25","9","20","Ken Wharton","Great Britain","Ken Wharton","","2:51.500","+ 11.400","+ 1.600","152.816","","","swiss-grand-prix",1953
+"26","10","30","Felice Bonetto","Italy","Officine Alfieri Maserati","","2:52.000","+ 11.900","+ 0.500","152.372","","","swiss-grand-prix",1953
+"27","11","34","Hermann Lang","Germany","Officine Alfieri Maserati","","2:54.800","+ 14.700","+ 2.800","149.931","","","swiss-grand-prix",1953
+"28","12","6","Jean Behra","France","Equipe Gordini","","2:55.000","+ 14.900","+ 0.200","149.760","","","swiss-grand-prix",1953
+"29","13","2","Jacques Swaters","Belgium","Ecurie Francorchamps","","2:55.100","+ 15.000","+ 0.100","149.674","","","swiss-grand-prix",1953
+"30","14","10","Louis Rosier","France","Ecurie Rosier","","2:55.400","+ 15.300","+ 0.300","149.418","","","swiss-grand-prix",1953
+"31","15","16","Lance Macklin","Great Britain","HW Motors","","2:57.100","+ 17.000","+ 1.700","147.984","","","swiss-grand-prix",1953
+"32","16","14","Paul Frere","Belgium","HW Motors","","2:57.900","+ 17.800","+ 0.800","147.318","","","swiss-grand-prix",1953
+"33","17","38","Peter Hirt","Switzerland","Ecurie Espadon","","3:01.500","+ 21.400","+ 3.600","144.396","","","swiss-grand-prix",1953
+"34","18","18","Albert Scherrer","Switzerland","HW Motors","","3:07.400","+ 27.300","+ 5.900","139.850","","","swiss-grand-prix",1953
+"35","19","40","Max de Terra","Switzerland","Ecurie Espadon","","3:21.100","+ 41.000","+ 13.700","130.323","","","swiss-grand-prix",1953
+"36","20","4","Chico Landi","Brazil","Escuderia Bandeirantes","","3:29.700","+ 49.600","+ 8.600","124.978","","","swiss-grand-prix",1953
+"37","1","14","Bill Vukovich","USA","Howard Keck Co","","4:20.130","","","","","","indianapolis-500",1953
+"38","2","59","Fred Agabashian","USA","Grancor Auto Specialists","","4:21.730","+ 1.600","+ 1.600","","","","indianapolis-500",1953
+"39","3","5","Jack McGrath","USA","Jack B Hinkle","","4:23.540","+ 3.410","+ 1.810","","","","indianapolis-500",1953
+"40","4","88","Manny Ayulo","USA","Peter Schmidt","","4:23.960","+ 3.830","+ 0.420","","","","indianapolis-500",1953
+"41","5","32","Andy Linden","USA","Rotary Engineering Corp","","4:24.590","+ 4.460","+ 0.630","","","","indianapolis-500",1953
+"42","6","98","Tony Bettenhausen","USA","J C Agajanian","","4:24.660","+ 4.530","+ 0.070","","","","indianapolis-500",1953
+"43","7","55","Jerry Hoyt","USA","John Zink","","4:25.230","+ 5.100","+ 0.570","","","","indianapolis-500",1953
+"44","8","21","Johnnie Parsons","USA","J S Belond","","4:21.500","+ 1.370","+ 0.380","","","","indianapolis-500",1953
+"45","9","3","Sam Hanks","USA","Ed Walsh","","4:21.760","+ 1.630","+ 0.260","","","","indianapolis-500",1953
+"46","10","92","Rodger Ward","USA","M A Walker","","4:21.880","+ 1.750","+ 0.120","","","","indianapolis-500",1953
+"47","11","29","Bob Scott","USA","Louis & Bruce Bromme","","4:21.950","+ 1.820","+ 0.070","","","","indianapolis-500",1953
+"48","12","16","Art Cross","USA","Bessie Lee Paoli","","4:22.180","+ 2.050","+ 0.230","","","","indianapolis-500",1953
+"49","13","41","Gene Hartley","USA","J C Agajanian","","4:22.270","+ 2.140","+ 0.090","","","","indianapolis-500",1953
+"50","14","23","Walt Faulkner","USA","Eugene A Casaroll","","4:22.550","+ 2.420","+ 0.280","","","","indianapolis-500",1953
+"51","15","38","Don Freeland","USA","Bob Estes","","4:23.020","+ 2.890","+ 0.470","","","","indianapolis-500",1953
+"52","16","97","Chuck Stevenson","USA","J C Agajanian","","4:23.620","+ 3.490","+ 0.600","","","","indianapolis-500",1953
+"53","17","7","Paul Russo","USA","Federal Auto Associates","","4:24.280","+ 4.150","+ 0.660","","","","indianapolis-500",1953
+"54","18","62","Spider Webb","USA","3-L Racing Team","","4:24.380","+ 4.250","+ 0.100","","","","indianapolis-500",1953
+"55","19","73","Carl Scarborough","USA","Lee Elkins","","4:24.830","+ 4.700","+ 0.450","","","","indianapolis-500",1953
+"56","20","12","Ernie McCoy","USA","H A Chapman","","4:24.850","+ 4.720","+ 0.020","","","","indianapolis-500",1953
+"57","21","48","Jimmy Daywalt","USA","Chapman S Root","","4:25.200","+ 5.070","+ 0.350","","","","indianapolis-500",1953
+"58","22","22","Marshall Teague","USA","Hart Fullerton","","4:25.250","+ 5.120","+ 0.050","","","","indianapolis-500",1953
+"59","23","83","Mike Nazaruk","USA","Lee Elkins","","4:25.280","+ 5.150","+ 0.030","","","","indianapolis-500",1953
+"60","24","77","Pat Flaherty","USA","Peter Schmidt","","4:25.350","+ 5.220","+ 0.070","","","","indianapolis-500",1953
+"61","25","2","Jim Rathmann","USA","Ernest L Ruiz","","4:25.360","+ 5.230","+ 0.010","","","","indianapolis-500",1953
+"62","26","9","Duke Nalon","USA","Jean Marcenac","","4:25.760","+ 5.630","+ 0.400","","","","indianapolis-500",1953
+"63","27","4","Duane Carter","USA","Murrell Belanger","","4:26.140","+ 6.010","+ 0.380","","","","indianapolis-500",1953
+"64","28","49","Bill Holland","USA","Ray Crawford","","4:21.120","+ 0.990","+ 0.990","","","","indianapolis-500",1953
+"65","29","51","Bob Sweikert","USA","A E Dean","","4:23.020","+ 2.890","+ 1.900","","","","indianapolis-500",1953
+"66","30","99","Cal Niday","USA","Murrell Belanger","","4:24.520","+ 4.390","+ 1.500","","","","indianapolis-500",1953
+"67","31","8","Jimmy Bryan","USA","John L McDaniel","","4:25.670","+ 5.540","+ 1.150","","","","indianapolis-500",1953
+"68","32","53","Jimmy Davies","USA","Pat Clancy","","4:26.070","+ 5.940","+ 0.400","","","","indianapolis-500",1953
+"69","33","56","Johnny Thomson","USA","R N Sabourin","","4:26.150","+ 6.020","+ 0.080","","","","indianapolis-500",1953
+"70","1","1","Alberto Ascari","Italy","Scuderia Ferrari","","9:59.800","","","136.905","","","german-grand-prix",1953
+"71","2","5","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","10:03.700","+ 3.900","+ 3.900","136.021","","","german-grand-prix",1953
+"72","3","2","Nino Farina","Italy","Scuderia Ferrari","","10:04.100","+ 4.300","+ 0.400","135.931","","","german-grand-prix",1953
+"73","4","3","Mike Hawthorn","Great Britain","Scuderia Ferrari","","10:12.600","+ 12.800","+ 8.500","134.045","","","german-grand-prix",1953
+"74","5","10","Maurice Trintignant","France","Equipe Gordini","","10:21.700","+ 21.900","+ 9.100","132.082","","","german-grand-prix",1953
+"75","6","4","Luigi Villoresi","Italy","Scuderia Ferrari","","10:22.800","+ 23.000","+ 1.100","131.849","","","german-grand-prix",1953
+"76","7","7","Felice Bonetto","Italy","Officine Alfieri Maserati","","10:40.800","+ 41.000","+ 18.000","128.146","","","german-grand-prix",1953
+"77","8","8","Onofre Marimon","Argentina","Officine Alfieri Maserati","","10:41.000","+ 41.200","+ 0.200","128.106","","","german-grand-prix",1953
+"78","9","9","Jean Behra","France","Equipe Gordini","","10:45.500","+ 45.700","+ 4.500","127.213","","","german-grand-prix",1953
+"79","10","11","Harry Schell","USA","Equipe Gordini","","10:46.600","+ 46.800","+ 1.100","126.996","","","german-grand-prix",1953
+"80","11","17","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","10:46.600","+ 46.800","","126.996","","","german-grand-prix",1953
+"81","12","19","Stirling Moss","Great Britain","Cooper Car Co","","10:48.300","+ 48.500","+ 1.700","126.663","","","german-grand-prix",1953
+"82","13","15","Roy Salvadori","Great Britain","Connaught Engineering","","10:57.500","+ 57.700","+ 9.200","124.891","","","german-grand-prix",1953
+"83","14","31","Hans Herrmann","Germany","Hans Herrmann","","10:59.800","+ 1:00.000","+ 2.300","124.455","","","german-grand-prix",1953
+"84","15","14","Prince Bira","Thailand","Connaught Engineering","","11:02.100","+ 1:02.300","+ 2.300","124.023","","","german-grand-prix",1953
+"85","16","16","Kenneth McAlpine","Great Britain","Connaught Engineering","","11:07.300","+ 1:07.500","+ 5.200","123.057","","","german-grand-prix",1953
+"86","17","38","Alan Brown","Great Britain","Equipe Anglaise","","11:08.700","+ 1:08.900","+ 1.400","122.799","","","german-grand-prix",1953
+"87","18","23","Willi Heeks","Germany","Willi Heeks","","11:18.000","+ 1:18.200","+ 9.300","121.115","","","german-grand-prix",1953
+"88","19","18","Jacques Swaters","Belgium","Ecurie Francorchamps","","11:18.900","+ 1:19.100","+ 0.900","120.954","","","german-grand-prix",1953
+"89","20","40","Rodney Nuckey","Great Britain","Rodney Nuckey","","11:22.100","+ 1:22.300","+ 3.200","120.387","","","german-grand-prix",1953
+"90","21","28","Theo Fitzau","Germany","Helmut Niedermayr","","11:24.300","+ 1:24.500","+ 2.200","120.000","","","german-grand-prix",1953
+"91","22","20","Louis Rosier","France","Ecurie Rosier","","11:27.400","+ 1:27.600","+ 3.100","119.458","","","german-grand-prix",1953
+"92","23","21","Hans Von Stuck","Germany","Hans Stuck","","11:37.200","+ 1:37.400","+ 9.800","117.779","","","german-grand-prix",1953
+"93","24","35","Edgar Barth","Germany","Rennkollektiv EMW","","11:40.800","+ 1:41.000","+ 3.600","117.174","","","german-grand-prix",1953
+"94","25","12","Johnny Claes","Belgium","Ecurie Belge","","11:45.500","+ 1:45.700","+ 4.700","116.394","","","german-grand-prix",1953
+"95","26","36","Rudolf Krause","Germany","Dora Greifzu","","11:49.500","+ 1:49.700","+ 4.000","115.737","","","german-grand-prix",1953
+"96","27","34","Kurt Adolff","Germany","Ecurie Espadon","","11:53.100","+ 1:53.300","+ 3.600","115.153","","","german-grand-prix",1953
+"97","28","24","Theo Helfrich","Germany","Theo Helfrich","","11:56.300","+ 1:56.500","+ 3.200","114.639","","","german-grand-prix",1953
+"98","29","22","Wolfgang Seidel","Germany","Wolfgang Seidel","","11:59.300","+ 1:59.500","+ 3.000","114.160","","","german-grand-prix",1953
+"99","30","41","Günther Bechem","Germany","Guenther Bechem","","12:13.300","+ 2:13.500","+ 14.000","111.981","","","german-grand-prix",1953
+"100","31","30","Ernst Loof","Germany","Ernst Loof","","12:16.800","+ 2:17.000","+ 3.500","111.449","","","german-grand-prix",1953
+"101","32","37","Ernst Klodwig","Germany","Ernst Klodwig","","12:24.600","+ 2:24.800","+ 7.800","110.282","","","german-grand-prix",1953
+"102","33","32","Erwin Bauer","Germany","Erwin Bauer","","","","","","","","german-grand-prix",1953
+"103","34","26","Oswald Karch","Germany","Oswald Karch","","","","","","","","german-grand-prix",1953
+"104","1","4","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","4:30.000","","","188.266","","","belgian-grand-prix",1953
+"105","2","10","Alberto Ascari","Italy","Scuderia Ferrari","","4:32.000","+ 2.000","+ 2.000","186.882","","","belgian-grand-prix",1953
+"106","3","2","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","","4:32.000","+ 2.000","","186.882","","","belgian-grand-prix",1953
+"107","4","12","Nino Farina","Italy","Scuderia Ferrari","","4:36.000","+ 6.000","+ 4.000","184.173","","","belgian-grand-prix",1953
+"108","5","8","Luigi Villoresi","Italy","Scuderia Ferrari","","4:39.000","+ 9.000","+ 3.000","182.193","","","belgian-grand-prix",1953
+"109","6","28","Onofre Marimon","Argentina","Officine Alfieri Maserati","","4:40.000","+ 10.000","+ 1.000","181.542","","","belgian-grand-prix",1953
+"110","7","14","Mike Hawthorn","Great Britain","Scuderia Ferrari","","4:42.000","+ 12.000","+ 2.000","180.255","","","belgian-grand-prix",1953
+"111","8","18","Maurice Trintignant","France","Equipe Gordini","","4:45.000","+ 15.000","+ 3.000","178.357","","","belgian-grand-prix",1953
+"112","9","30","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","4:49.000","+ 19.000","+ 4.000","175.889","","","belgian-grand-prix",1953
+"113","10","6","Johnny Claes","Belgium","Officine Alfieri Maserati","","4:50.000","+ 20.000","+ 1.000","175.282","","","belgian-grand-prix",1953
+"114","11","24","Paul Frere","Belgium","HW Motors","","4:52.000","+ 22.000","+ 2.000","174.082","","","belgian-grand-prix",1953
+"115","12","20","Harry Schell","USA","Equipe Gordini","","4:53.000","+ 23.000","+ 1.000","173.488","","","belgian-grand-prix",1953
+"116","13","32","Louis Rosier","France","Ecurie Rosier","","4:56.000","+ 26.000","+ 3.000","171.729","","","belgian-grand-prix",1953
+"117","14","16","Jean Behra","France","Equipe Gordini","","4:57.000","+ 27.000","+ 1.000","171.151","","","belgian-grand-prix",1953
+"118","15","38","Fred Wacker","USA","Equipe Gordini","","5:03.000","+ 33.000","+ 6.000","167.762","","","belgian-grand-prix",1953
+"119","16","26","Peter Collins","Great Britain","HW Motors","","5:03.000","+ 33.000","","167.762","","","belgian-grand-prix",1953
+"120","17","22","Lance Macklin","Great Britain","HW Motors","","5:14.000","+ 44.000","+ 11.000","161.885","","","belgian-grand-prix",1953
+"121","18","40","Andre Pilette","Belgium","Ecurie Belge","","5:23.000","+ 53.000","+ 9.000","157.374","","","belgian-grand-prix",1953
+"122","19","36","Arthur Legat","Belgium","Arthur Legat","","5:41.000","+ 1:11.000","+ 18.000","149.067","","","belgian-grand-prix",1953
+"123","20","34","Georges Berger","Belgium","Georges Berger","","5:58.000","+ 1:28.000","+ 17.000","141.988","","","belgian-grand-prix",1953
+"124","1","5","Alberto Ascari","Italy","Scuderia Ferrari","","1:48.000","","","157.016","","","british-grand-prix",1953
+"125","2","24","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","","1:49.000","+ 1.000","+ 1.000","155.576","","","british-grand-prix",1953
+"126","3","8","Mike Hawthorn","Great Britain","Scuderia Ferrari","","1:49.000","+ 1.000","","155.576","","","british-grand-prix",1953
+"127","4","23","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","1:50.000","+ 2.000","+ 1.000","154.161","","","british-grand-prix",1953
+"128","5","6","Nino Farina","Italy","Scuderia Ferrari","","1:50.000","+ 2.000","","154.161","","","british-grand-prix",1953
+"129","6","7","Luigi Villoresi","Italy","Scuderia Ferrari","","1:51.000","+ 3.000","+ 1.000","152.772","","","british-grand-prix",1953
+"130","7","26","Onofre Marimon","Argentina","Officine Alfieri Maserati","","1:51.000","+ 3.000","","152.772","","","british-grand-prix",1953
+"131","8","29","Maurice Trintignant","France","Equipe Gordini","","1:52.000","+ 4.000","+ 1.000","151.408","","","british-grand-prix",1953
+"132","9","28","Harry Schell","USA","Equipe Gordini","","1:52.000","+ 4.000","","151.408","","","british-grand-prix",1953
+"133","10","14","Tony Rolt","Great Britain","R R C Walker Racing Team","","1:54.000","+ 6.000","+ 2.000","148.752","","","british-grand-prix",1953
+"134","11","16","Ken Wharton","Great Britain","Ken Wharton","","1:54.000","+ 6.000","","148.752","","","british-grand-prix",1953
+"135","12","1","Lance Macklin","Great Britain","HW Motors","","1:57.000","+ 9.000","+ 3.000","144.938","","","british-grand-prix",1953
+"136","13","11","Kenneth McAlpine","Great Britain","Connaught Engineering","","1:57.000","+ 9.000","","144.938","","","british-grand-prix",1953
+"137","14","20","Peter Whitehead","Great Britain","Atlantic Stable","","1:57.000","+ 9.000","","144.938","","","british-grand-prix",1953
+"138","15","18","Jimmy Stewart","Great Britain","Ecurie Ecosse","","1:58.000","+ 10.000","+ 1.000","143.710","","","british-grand-prix",1953
+"139","16","25","Felice Bonetto","Italy","Officine Alfieri Maserati","","1:58.000","+ 10.000","","143.710","","","british-grand-prix",1953
+"140","17","3","Duncan Hamilton","Great Britain","HW Motors","","2:02.000","+ 14.000","+ 4.000","138.998","","","british-grand-prix",1953
+"141","18","17","Bob Gerard","Great Britain","Bob Gerard","","2:02.000","+ 14.000","","138.998","","","british-grand-prix",1953
+"142","19","10","Prince Bira","Thailand","Connaught Engineering","","2:04.000","+ 16.000","+ 2.000","136.756","","","british-grand-prix",1953
+"143","20","15","Ian Stewart","Great Britain","Ecurie Ecosse","","2:04.000","+ 16.000","","136.756","","","british-grand-prix",1953
+"144","21","19","Alan Brown","Great Britain","R J Chase","","2:04.000","+ 16.000","","136.756","","","british-grand-prix",1953
+"145","22","30","Jean Behra","France","Equipe Gordini","","2:04.000","+ 16.000","","136.756","","","british-grand-prix",1953
+"146","23","2","Peter Collins","Great Britain","HW Motors","","2:06.000","+ 18.000","+ 2.000","134.585","","","british-grand-prix",1953
+"147","24","9","Louis Rosier","France","Ecurie Rosier","","2:07.000","+ 19.000","+ 1.000","133.525","","","british-grand-prix",1953
+"148","25","22","Tony Crook","Great Britain","Tony Crook","","2:07.000","+ 19.000","","133.525","","","british-grand-prix",1953
+"149","26","31","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","2:09.000","+ 21.000","+ 2.000","131.455","","","british-grand-prix",1953
+"150","27","4","Jack Fairman","Great Britain","HW Motors","","2:32.000","+ 44.000","+ 23.000","111.564","","","british-grand-prix",1953
+"151","28","12","Roy Salvadori","Great Britain","Connaught Engineering","","","","","","","","british-grand-prix",1953
+"152","1","4","Alberto Ascari","Italy","Scuderia Ferrari","","2:02.700","","","","","","italian-grand-prix",1953
+"153","2","50","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","2:03.200","+ 0.500","+ 0.500","","","","italian-grand-prix",1953
+"154","3","6","Nino Farina","Italy","Scuderia Ferrari","","2:03.900","+ 1.200","+ 0.700","","","","italian-grand-prix",1953
+"155","4","54","Onofre Marimon","Argentina","Officine Alfieri Maserati","","2:04.100","+ 1.400","+ 0.200","","","","italian-grand-prix",1953
+"156","5","2","Luigi Villoresi","Italy","Scuderia Ferrari","","2:04.600","+ 1.900","+ 0.500","","","","italian-grand-prix",1953
+"157","6","8","Mike Hawthorn","Great Britain","Scuderia Ferrari","","2:04.900","+ 2.200","+ 0.300","","","","italian-grand-prix",1953
+"158","7","52","Felice Bonetto","Italy","Officine Alfieri Maserati","","2:05.100","+ 2.400","+ 0.200","","","","italian-grand-prix",1953
+"159","8","36","Maurice Trintignant","France","Equipe Gordini","","2:05.700","+ 3.000","+ 0.600","","","","italian-grand-prix",1953
+"160","9","58","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","2:05.900","+ 3.200","+ 0.200","","","","italian-grand-prix",1953
+"161","10","28","Stirling Moss","Great Britain","Cooper Car Co","","2:06.600","+ 3.900","+ 0.700","","","","italian-grand-prix",1953
+"162","11","10","Umberto Maglioli","Italy","Scuderia Ferrari","","2:06.900","+ 4.200","+ 0.300","","","","italian-grand-prix",1953
+"163","12","56","Sergio Mantovani","Italy","Officine Alfieri Maserati","","2:07.500","+ 4.800","+ 0.600","","","","italian-grand-prix",1953
+"164","13","34","Elie Bayol","France","OSCA Automobili","","2:07.800","+ 5.100","+ 0.300","","","","italian-grand-prix",1953
+"165","14","22","Roy Salvadori","Great Britain","Connaught Engineering","","2:08.000","+ 5.300","+ 0.200","","","","italian-grand-prix",1953
+"166","15","38","Harry Schell","USA","Equipe Gordini","","2:08.000","+ 5.300","","","","","italian-grand-prix",1953
+"167","16","40","Roberto Mieres","Argentina","Equipe Gordini","","2:08.700","+ 6.000","+ 0.700","","","","italian-grand-prix",1953
+"168","17","64","Louis Rosier","France","Ecurie Rosier","","2:09.300","+ 6.600","+ 0.600","","","","italian-grand-prix",1953
+"169","18","24","Kenneth McAlpine","Great Britain","Connaught Engineering","","2:09.500","+ 6.800","+ 0.200","","","","italian-grand-prix",1953
+"170","19","30","Ken Wharton","Great Britain","Ken Wharton","","2:10.100","+ 7.400","+ 0.600","","","","italian-grand-prix",1953
+"171","20","12","Piero Carini","Italy","Scuderia Ferrari","","2:11.200","+ 8.500","+ 1.100","","","","italian-grand-prix",1953
+"172","21","42","Chico Landi","Brazil","Scuderia Milano","","2:12.800","+ 10.100","+ 1.600","","","","italian-grand-prix",1953
+"173","22","20","Jack Fairman","Great Britain","Connaught Engineering","","2:13.500","+ 10.800","+ 0.700","","","","italian-grand-prix",1953
+"174","23","44","Prince Bira","Thailand","Scuderia Milano","","2:13.600","+ 10.900","+ 0.100","","","","italian-grand-prix",1953
+"175","24","46","Alan Brown","Great Britain","Equipe Anglaise","","2:14.800","+ 12.100","+ 1.200","","","","italian-grand-prix",1953
+"176","25","32","Louis Chiron","Monaco","Louis Chiron","","2:15.000","+ 12.300","+ 0.200","","","","italian-grand-prix",1953
+"177","26","18","John Fitch","USA","HW Motors","","2:18.100","+ 15.400","+ 3.100","","","","italian-grand-prix",1953
+"178","27","14","Lance Macklin","Great Britain","HW Motors","","2:18.200","+ 15.500","+ 0.100","","","","italian-grand-prix",1953
+"179","28","16","Yves Giraud-Cabantous","France","HW Motors","","2:20.800","+ 18.100","+ 2.600","","","","italian-grand-prix",1953
+"180","29","48","Hans Von Stuck","Germany","Hans Stuck","","2:24.100","+ 21.400","+ 3.300","","","","italian-grand-prix",1953
+"181","30","26","Johnny Claes","Belgium","Ecurie Belge","","2:28.200","+ 25.500","+ 4.100","","","","italian-grand-prix",1953
+"182","1","2","Alberto Ascari","Italy","Scuderia Ferrari","","1:51.100","","","135.866","","","dutch-grand-prix",1953
+"183","2","12","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","1:52.700","+ 1.600","+ 1.600","133.937","","","dutch-grand-prix",1953
+"184","3","6","Nino Farina","Italy","Scuderia Ferrari","","1:53.000","+ 1.900","+ 0.300","133.582","","","dutch-grand-prix",1953
+"185","4","4","Luigi Villoresi","Italy","Scuderia Ferrari","","1:53.700","+ 2.600","+ 0.700","132.759","","","dutch-grand-prix",1953
+"186","5","14","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","","1:54.100","+ 3.000","+ 0.400","132.294","","","dutch-grand-prix",1953
+"187","6","8","Mike Hawthorn","Great Britain","Scuderia Ferrari","","1:54.900","+ 3.800","+ 0.800","131.373","","","dutch-grand-prix",1953
+"188","7","18","Emmanuel de Graffenried","Switzerland","Enrico Plate","","1:58.700","+ 7.600","+ 3.800","127.167","","","dutch-grand-prix",1953
+"189","8","10","Louis Rosier","France","Ecurie Rosier","","1:59.500","+ 8.400","+ 0.800","126.316","","","dutch-grand-prix",1953
+"190","9","34","Stirling Moss","Great Britain","Connaught Engineering","","2:00.000","+ 8.900","+ 0.500","125.790","","","dutch-grand-prix",1953
+"191","10","20","Harry Schell","USA","Equipe Gordini","","2:00.100","+ 9.000","+ 0.100","125.685","","","dutch-grand-prix",1953
+"192","11","26","Roy Salvadori","Great Britain","Connaught Engineering","","2:00.500","+ 9.400","+ 0.400","125.268","","","dutch-grand-prix",1953
+"193","12","24","Maurice Trintignant","France","Equipe Gordini","","2:01.200","+ 10.100","+ 0.700","124.544","","","dutch-grand-prix",1953
+"194","13","16","Felice Bonetto","Italy","Officine Alfieri Maserati","","2:01.500","+ 10.400","+ 0.300","124.237","","","dutch-grand-prix",1953
+"195","14","28","Kenneth McAlpine","Great Britain","Connaught Engineering","","2:01.900","+ 10.800","+ 0.400","123.829","","","dutch-grand-prix",1953
+"196","15","38","Lance Macklin","Great Britain","HW Motors","","2:02.400","+ 11.300","+ 0.500","123.323","","","dutch-grand-prix",1953
+"197","16","36","Peter Collins","Great Britain","HW Motors","","2:03.100","+ 12.000","+ 0.700","122.622","","","dutch-grand-prix",1953
+"198","17","30","Johnny Claes","Belgium","Ecurie Belge","","2:03.900","+ 12.800","+ 0.800","121.830","","","dutch-grand-prix",1953
+"199","18","32","Ken Wharton","Great Britain","Ken Wharton","","2:06.400","+ 15.300","+ 2.500","119.420","","","dutch-grand-prix",1953
+"200","19","22","Roberto Mieres","Argentina","Equipe Gordini","","2:08.500","+ 17.400","+ 2.100","117.469","","","dutch-grand-prix",1953
+"201","1","10","Alberto Ascari","Italy","Scuderia Ferrari","","2:41.200","","","186.409","","","french-grand-prix",1953
+"202","2","24","Felice Bonetto","Italy","Officine Alfieri Maserati","","2:41.500","+ 0.300","+ 0.300","186.063","","","french-grand-prix",1953
+"203","3","12","Luigi Villoresi","Italy","Scuderia Ferrari","","2:41.900","+ 0.700","+ 0.400","185.603","","","french-grand-prix",1953
+"204","4","18","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","","2:42.000","+ 0.800","+ 0.100","185.488","","","french-grand-prix",1953
+"205","5","20","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","","2:42.400","+ 1.200","+ 0.400","185.032","","","french-grand-prix",1953
+"206","6","14","Nino Farina","Italy","Scuderia Ferrari","","2:42.500","+ 1.300","+ 0.100","184.918","","","french-grand-prix",1953
+"207","7","16","Mike Hawthorn","Great Britain","Scuderia Ferrari","","2:43.500","+ 2.300","+ 1.000","183.787","","","french-grand-prix",1953
+"208","8","22","Onofre Marimon","Argentina","Officine Alfieri Maserati","","2:44.700","+ 3.500","+ 1.200","182.448","","","french-grand-prix",1953
+"209","9","46","Emmanuel de Graffenried","Switzerland","Emmanuel de Graffenried","","2:46.100","+ 4.900","+ 1.400","180.910","","","french-grand-prix",1953
+"210","10","44","Louis Rosier","France","Ecurie Rosier","","2:49.600","+ 8.400","+ 3.500","177.176","","","french-grand-prix",1953
+"211","11","42","Prince Bira","Thailand","Connaught Engineering","","2:53.200","+ 12.000","+ 3.600","173.494","","","french-grand-prix",1953
+"212","12","38","Bob Gerard","Great Britain","Bob Gerard","","2:54.200","+ 13.000","+ 1.000","172.498","","","french-grand-prix",1953
+"213","13","36","Stirling Moss","Great Britain","Cooper Car Co","","2:55.700","+ 14.500","+ 1.500","171.025","","","french-grand-prix",1953
+"214","14","40","Ken Wharton","Great Britain","Ken Wharton","","2:55.800","+ 14.600","+ 0.100","170.928","","","french-grand-prix",1953
+"215","15","34","Elie Bayol","France","Elie Bayol","","2:56.900","+ 15.700","+ 1.100","169.865","","","french-grand-prix",1953
+"216","16","26","Lance Macklin","Great Britain","HW Motors","","2:57.200","+ 16.000","+ 0.300","169.577","","","french-grand-prix",1953
+"217","17","28","Peter Collins","Great Britain","HW Motors","","3:02.000","+ 20.800","+ 4.800","165.105","","","french-grand-prix",1953
+"218","18","30","Yves Giraud-Cabantous","France","HW Motors","","3:06.700","+ 25.500","+ 4.700","160.949","","","french-grand-prix",1953
+"219","19","50","Roy Salvadori","Great Britain","Connaught Engineering","","3:23.000","+ 41.800","+ 16.300","148.025","","","french-grand-prix",1953
+"220","20","6","Harry Schell","USA","Equipe Gordini","","3:25.800","+ 44.600","+ 2.800","146.011","","","french-grand-prix",1953
+"221","21","48","Johnny Claes","Belgium","Ecurie Belge","","4:06.500","+ 1:25.300","+ 40.700","121.903","","","french-grand-prix",1953
+"222","22","2","Jean Behra","France","Equipe Gordini","","","","","","","","french-grand-prix",1953
+"223","23","4","Maurice Trintignant","France","Equipe Gordini","","","","","","","","french-grand-prix",1953
+"224","24","8","Roberto Mieres","Argentina","Equipe Gordini","","","","","","","","french-grand-prix",1953
+"225","25","32","Louis Chiron","Monaco","Louis Chiron","","","","","","","","french-grand-prix",1953

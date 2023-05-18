@@ -1,0 +1,93 @@
+"","#","Driver","Nat","Team","Car","Engine","NA","NA","NA","NA","NA","NA","gp_name","year"
+"1","1","Jimmy Bryan","USA","A E Dean","Kuzma","Offenhauser","3","Jack McGrath","USA","Jack B Hinkle","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"2","4","Bill Vukovich","USA","Lindsey Hopkins","Kurtis Kraft 500C","Offenhauser","5","Jimmy Reece","USA","Emmett J Malloy","Pankratz","Offenhauser","indianapolis-500",1955
+"3","6","Bob Sweikert","USA","John Zink","Kurtis Kraft 500C","Offenhauser","8","Sam Hanks","USA","Cars Inc","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"4","10","Tony Bettenhausen","USA","H A Chapman","Kurtis Kraft 500C","Offenhauser","10","Paul Russo","USA","H A Chapman","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"5","12","Don Freeland","USA","Bob Estes","Phillips","Offenhauser","14","Fred Agabashian","USA","Federal Auto Associates","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"6","15","Jimmy Davies","USA","Pat Clancy","Kurtis Kraft 500B","Offenhauser","16","Johnnie Parsons","USA","Carl L Anderson","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"7","19","Andy Linden","USA","Joseph Massaglia Jr","Kurtis Kraft 4000","Offenhauser","22","Cal Niday","USA","Racing Associates","Kurtis Kraft 500B","Offenhauser","indianapolis-500",1955
+"8","23","Jerry Hoyt","USA","Jim Robbins","Stevens","Offenhauser","27","Rodger Ward","USA","E R Casale","Kuzma","Offenhauser","indianapolis-500",1955
+"9","29","Pat O'Connor","USA","Rotary Engineering Corp","Kurtis Kraft 500D","Offenhauser","31","Keith Andrews","USA","John L McDaniel","Schroeder","Offenhauser","indianapolis-500",1955
+"10","33","Jim Rathmann","USA","South California Muffler Co","Epperly","Offenhauser","37","Eddie Russo","USA","R N Sabourin","Pawl","Offenhauser","indianapolis-500",1955
+"11","39","Johnny Boyd","USA","Chapman S Root","Kurtis Kraft 500D","Offenhauser","41","Chuck Weyant","USA","Federal Auto Associates","Kurtis Kraft 3000","Offenhauser","indianapolis-500",1955
+"12","42","Al Keller","USA","Samuel W Traylor III","Kurtis Kraft 2000","Offenhauser","44","Johnny Thomson","USA","Peter Schmidt","Kuzma","Offenhauser","indianapolis-500",1955
+"13","48","Jimmy Daywalt","USA","Chapman S Root","Kurtis Kraft","Offenhauser","49","Ray Crawford","USA","Ray Crawford","Kurtis Kraft 500D","Offenhauser","indianapolis-500",1955
+"14","68","Ed Elisian","USA","M Pete Wales","Kurtis Kraft 4000","Offenhauser","71","Al Herman","USA","T W & W T Martin","Kurtis Kraft","Offenhauser","indianapolis-500",1955
+"15","77","Walt Faulkner","USA","Merz Engineering Inc","Kurtis Kraft 500C","Offenhauser","77","Bill Homeier","USA","Merz Engineering Inc","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1955
+"16","81","Shorty Templeman","USA","Pete Salemi","Trevis","Offenhauser","83","Eddie Johnson","USA","Kalamazoo Sports Inc","Trevis","Offenhauser","indianapolis-500",1955
+"17","89","Pat Flaherty","USA","Harry Dunn","Kurtis Kraft 500B","Offenhauser","98","Duane Carter","USA","J C Agajanian","Kuzma","Offenhauser","indianapolis-500",1955
+"18","99","Art Cross","USA","Murrell Belanger","Kurtis Kraft 500C","Offenhauser","1","Jimmy Bryan","USA","A E Dean","Kuzma","Offenhauser","indianapolis-500",1955
+"19","2","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","4","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","argentine-grand-prix",1955
+"20","6","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","8","Hans Herrmann","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","argentine-grand-prix",1955
+"21","8","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","8","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","argentine-grand-prix",1955
+"22","10","Nino Farina","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","10","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 625","Ferrari 625","argentine-grand-prix",1955
+"23","10","Umberto Maglioli","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","12","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 625","Ferrari 625","argentine-grand-prix",1955
+"24","12","Nino Farina","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","12","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 625","Ferrari 625","argentine-grand-prix",1955
+"25","14","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 625","Ferrari 625","16","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"26","18","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","20","Sergio Mantovani","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"27","20","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","20","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"28","22","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","22","Sergio Mantovani","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"29","22","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","24","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"30","26","Clemar Bucci","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","26","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"31","26","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","28","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1955
+"32","28","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","30","Alberto Uria","Uruguay","A Uria","Maserati A6GCM","Maserati 250F","argentine-grand-prix",1955
+"33","32","Alberto Ascari","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","34","Luigi Villoresi","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","argentine-grand-prix",1955
+"34","36","Eugenio Castellotti","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","36","Luigi Villoresi","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","argentine-grand-prix",1955
+"35","38","Elie Bayol","France","Equipe Gordini","Gordini T16","Gordini 23","40","Pablo Birger","Argentina","Equipe Gordini","Gordini T16","Gordini 23","argentine-grand-prix",1955
+"36","42","Jesús Ricardo Iglesias","Argentina","Equipe Gordini","Gordini T16","Gordini 23","2","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","argentine-grand-prix",1955
+"37","2","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","4","Andre Simon","France","Daimler Benz AG","Mercedes W196","Mercedes M196","monaco-grand-prix",1955
+"38","4","Hans Herrmann","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","6","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","monaco-grand-prix",1955
+"39","8","Robert Manzon","France","Equipe Gordini","Gordini T16","Gordini 23","10","Jacques Pollet","France","Equipe Gordini","Gordini T16","Gordini 23","monaco-grand-prix",1955
+"40","12","Elie Bayol","France","Equipe Gordini","Gordini T16","Gordini 23","14","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","monaco-grand-prix",1955
+"41","18","Mike Hawthorn","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","22","Lance Macklin","Great Britain","Stirling Moss Ltd","Maserati 250F","Maserati 250F","monaco-grand-prix",1955
+"42","24","Ted Whiteaway","Great Britain","E N Whiteaway","HWM","Alta","26","Alberto Ascari","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","monaco-grand-prix",1955
+"43","28","Luigi Villoresi","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","30","Eugenio Castellotti","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","monaco-grand-prix",1955
+"44","32","Louis Chiron","Monaco","Scuderia Lancia","Lancia D50","Lancia DS50","34","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1955
+"45","34","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","36","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1955
+"46","38","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","40","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1955
+"47","40","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","42","Nino Farina","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","monaco-grand-prix",1955
+"48","44","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 625","Ferrari 625","44","Nino Farina","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","monaco-grand-prix",1955
+"49","46","Harry Schell","USA","Scuderia Ferrari","Ferrari 555","Ferrari 555","48","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","monaco-grand-prix",1955
+"50","48","Paul Frere","Belgium","Scuderia Ferrari","Ferrari 555","Ferrari 555","2","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","monaco-grand-prix",1955
+"51","2","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1955
+"52","6","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Andre Simon","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1955
+"53","10","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","12","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","british-grand-prix",1955
+"54","14","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","16","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 625","Ferrari 625","british-grand-prix",1955
+"55","16","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","18","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 625","Ferrari 625","british-grand-prix",1955
+"56","20","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari 625","Ferrari 625","22","Robert Manzon","France","Equipe Gordini","Gordini T16","Gordini 23","british-grand-prix",1955
+"57","24","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T16","Gordini 23","26","Mike Sparken","France","Equipe Gordini","Gordini T16","Gordini 23","british-grand-prix",1955
+"58","28","Ken Wharton","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","28","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","british-grand-prix",1955
+"59","30","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","32","Kenneth McAlpine","Great Britain","Connaught Engineering","Connaught B","Alta","british-grand-prix",1955
+"60","34","Jack Fairman","Great Britain","Connaught Engineering","Connaught B","Alta","36","Tony Rolt","Great Britain","R R C Walker Racing Team","Connaught B","Alta","british-grand-prix",1955
+"61","36","Peter Walker","Great Britain","R R C Walker Racing Team","Connaught B","Alta","38","Leslie Marr","Great Britain","L Marr","Connaught B","Alta","british-grand-prix",1955
+"62","40","Jack Brabham","Australia","Cooper Car Co","Cooper T40","Bristol 401","42","Peter Collins","Great Britain","Owen Racing Organisation","Maserati 250F","Maserati 250F","british-grand-prix",1955
+"63","44","Roy Salvadori","Great Britain","Gilby Engineering","Maserati 250F","Maserati 250F","46","Lance Macklin","Great Britain","Stirling Moss Ltd","Maserati 250F","Maserati 250F","british-grand-prix",1955
+"64","48","Horace Gould","Great Britain","Goulds' Garage","Maserati 250F","Maserati 250F","50","Piero Taruffi","Italy","Daimler Benz AG","Mercedes W196","Mercedes M196","british-grand-prix",1955
+"65","2","Nino Farina","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","4","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","italian-grand-prix",1955
+"66","6","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 555","Ferrari 555","8","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 555","Ferrari 555","italian-grand-prix",1955
+"67","10","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","12","Umberto Maglioli","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","italian-grand-prix",1955
+"68","14","Piero Taruffi","Italy","Daimler Benz AG","Mercedes W196","Mercedes M196","16","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","italian-grand-prix",1955
+"69","18","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","20","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","italian-grand-prix",1955
+"70","22","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T16","Gordini 23","24","Jean Lucas","France","Equipe Gordini","Gordini T32","Gordini 25","italian-grand-prix",1955
+"71","26","Jacques Pollet","France","Equipe Gordini","Gordini T16","Gordini 23","28","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1955
+"72","30","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","32","Peter Collins","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1955
+"73","34","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","36","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1955
+"74","38","Horace Gould","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","40","John Fitch","USA","Stirling Moss Ltd","Maserati 250F","Maserati 250F","italian-grand-prix",1955
+"75","42","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","44","Ken Wharton","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","italian-grand-prix",1955
+"76","2","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 555","Ferrari 2.5 L4","4","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 555","Ferrari 2.5 L4","dutch-grand-prix",1955
+"77","6","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 2.5 L4","8","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","dutch-grand-prix",1955
+"78","10","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","12","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","dutch-grand-prix",1955
+"79","14","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","16","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","dutch-grand-prix",1955
+"80","18","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","20","Robert Manzon","France","Equipe Gordini","Gordini T16","Gordini 23","dutch-grand-prix",1955
+"81","22","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T16","Gordini 23","24","Jacques Pollet","France","Equipe Gordini","Gordini T16","Gordini 23","dutch-grand-prix",1955
+"82","26","Peter Walker","Great Britain","Stirling Moss Ltd","Maserati 250F","Maserati 250F","28","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","dutch-grand-prix",1955
+"83","30","Johnny Claes","Belgium","Equipe Nationale Belge","Ferrari 500","Ferrari 2.5 L4","32","Horace Gould","Great Britain","Goulds Garage","Maserati 250F","Maserati 250F","dutch-grand-prix",1955
+"84","2","Nino Farina","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","4","Maurice Trintignant","France","Scuderia Ferrari","Ferrari 555","Ferrari 555","belgian-grand-prix",1955
+"85","4","Harry Schell","USA","Scuderia Ferrari","Ferrari 555","Ferrari 555","6","Paul Frere","Belgium","Scuderia Ferrari","Ferrari 555","Ferrari 555","belgian-grand-prix",1955
+"86","8","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","10","Juan Manuel Fangio","Argentina","Daimler Benz AG","Mercedes W196","Mercedes M196","belgian-grand-prix",1955
+"87","12","Karl Kling","Germany","Daimler Benz AG","Mercedes W196","Mercedes M196","14","Stirling Moss","Great Britain","Daimler Benz AG","Mercedes W196","Mercedes M196","belgian-grand-prix",1955
+"88","20","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","22","Luigi Musso","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","belgian-grand-prix",1955
+"89","24","Roberto Mieres","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","24","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","belgian-grand-prix",1955
+"90","26","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","28","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","belgian-grand-prix",1955
+"91","30","Eugenio Castellotti","Italy","Scuderia Lancia","Lancia D50","Lancia DS50","38","Johnny Claes","Belgium","Stirling Moss Ltd","Maserati 250F","Maserati 250F","belgian-grand-prix",1955
+"92","40","Mike Hawthorn","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","2","Nino Farina","Italy","Scuderia Ferrari","Ferrari 555","Ferrari 555","belgian-grand-prix",1955

@@ -1,0 +1,88 @@
+"","#","Driver","Nat","Team","Car","Engine","NA","NA","NA","NA","NA","NA","gp_name","year"
+"1","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1957
+"2","6","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1957
+"3","10","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","12","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1957
+"4","14","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","16","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1957
+"5","18","Cesare Perdisa","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","18","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1957
+"6","18","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari D50","Ferrari DS50","20","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1957
+"7","20","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","22","Harry Schell","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","argentine-grand-prix",1957
+"8","24","Jo Bonnier","Sweden","Scuderia Centro Sud","Maserati 250F","Maserati 250F","26","Alessandro de Tomaso","Argentina","Scuderia Centro Sud","Ferrari 500","Ferrari 625","argentine-grand-prix",1957
+"9","28","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1957
+"10","1","Jimmy Bryan","USA","A E Dean","Kuzma","Offenhauser","3","Don Freeland","USA","Ansted Rotary Corp","Kurtis Kraft 500D","Offenhauser","indianapolis-500",1957
+"11","5","Jimmy Reece","USA","Fred & Richard Sommer","Kurtis Kraft 500C","Offenhauser","6","Johnny Boyd","USA","George Bignotti","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"12","7","Bob Veith","USA","Bob Estes","Phillips","Offenhauser","8","Rodger Ward","USA","Roger Wolcott","Lesovsky","Offenhauser","indianapolis-500",1957
+"13","9","Sam Hanks","USA","George Salih","Salih","Offenhauser","10","Johnny Thomson","USA","Racing Associates","Kuzma","Offenhauser","indianapolis-500",1957
+"14","12","Pat O'Connor","USA","Chapman S Root","Kurtis Kraft 500G","Offenhauser","14","Fred Agabashian","USA","George Bignotti","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"15","16","Al Keller","USA","Pat Clancy","Kurtis Kraft 500G","Offenhauser","18","Johnnie Parsons","USA","Chapman S Root","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"16","19","Jack Turner","USA","Pat Clancy","Kurtis Kraft 500G","Offenhauser","22","Gene Hartley","USA","Joseph Massaglia Jr","Lesovsky","Offenhauser","indianapolis-500",1957
+"17","23","Elmer George","USA","Ernest L Ruiz","Kurtis Kraft 500B","Offenhauser","26","Jim Rathmann","USA","Lindsey Hopkins","Epperly","Offenhauser","indianapolis-500",1957
+"18","27","Tony Bettenhausen","USA","Novi Racing Corp","Kurtis Kraft","Novi","28","Johnnie Tolan","USA","Lysle Greenman","Kuzma","Offenhauser","indianapolis-500",1957
+"19","31","Bill Cheesbourg","USA","J S Donaldson","Kurtis Kraft 500G","Offenhauser","43","Eddie Johnson","USA","H A Chapman","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"20","48","Marshall Teague","USA","Chapman S Root","Kurtis Kraft 500D","Offenhauser","52","Troy Ruttman","USA","John Zink","Watson","Offenhauser","indianapolis-500",1957
+"21","54","Paul Russo","USA","Novi Racing Corp","Kurtis Kraft","Novi","55","Eddie Russo","USA","Fred Sclavi","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1957
+"22","57","Jimmy Daywalt","USA","H H Johnson","Kurtis Kraft 500C","Offenhauser","73","Andy Linden","USA","Kalamazoo Sports Inc","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"23","77","Mike Magill","USA","George Walther Jr","Kurtis Kraft 500G","Offenhauser","82","Chuck Weyant","USA","Pete Salemi","Kuzma","Offenhauser","indianapolis-500",1957
+"24","83","Ed Elisian","USA","Kalamazoo Sports Inc","Kurtis Kraft 500C","Offenhauser","88","Eddie Sachs","USA","Peter Schmidt","Kuzma","Offenhauser","indianapolis-500",1957
+"25","89","Al Herman","USA","Harry Dunn","Dunn","Offenhauser","92","Don Edmunds","USA","Roy McKay","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1957
+"26","95","Bob Christie","USA","Cars Inc","Kurtis Kraft 500C","Offenhauser","1","Jimmy Bryan","USA","A E Dean","Kuzma","Offenhauser","indianapolis-500",1957
+"27","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","french-grand-prix",1957
+"28","6","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","french-grand-prix",1957
+"29","10","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","12","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","french-grand-prix",1957
+"30","14","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","16","Maurice Trintignant","France","Scuderia Ferrari","Ferrari D50","Ferrari DS50","french-grand-prix",1957
+"31","18","Stuart Lewis-Evans","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","20","Roy Salvadori","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","french-grand-prix",1957
+"32","22","Jack Brabham","Australia","Cooper Car Co","Cooper T43","Climax FPF1.9","24","Mike MacDowel","Great Britain","Cooper Car Co","Cooper T43","Climax FPF1.5","french-grand-prix",1957
+"33","24","Jack Brabham","Australia","Cooper Car Co","Cooper T43","Climax FPF1.5","26","Ron Flockhart","Great Britain","Owen Racing Organisation","BRM P25","BRM P257","french-grand-prix",1957
+"34","28","Herbert MacKay-Fraser","USA","Owen Racing Organisation","BRM P25","BRM P257","30","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","french-grand-prix",1957
+"35","2","Masten Gregory","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","4","Andre Simon","France","Scuderia Centro Sud","Maserati 250F","Maserati 250F","monaco-grand-prix",1957
+"36","6","Ron Flockhart","Great Britain","Owen Racing Organisation","BRM P25","BRM P257","8","Roy Salvadori","Great Britain","Owen Racing Organisation","BRM P25","BRM P257","monaco-grand-prix",1957
+"37","10","Stuart Lewis-Evans","Great Britain","Connaught Engineering","Connaught B","Alta","12","Ivor Bueb","Great Britain","Connaught Engineering","Connaught B","Alta","monaco-grand-prix",1957
+"38","14","Jack Brabham","Australia","Cooper Car Co","Cooper T43","Climax FPF1.9","16","Les Leston","Great Britain","Cooper Car Co","Cooper T43","Climax FPF1.5","monaco-grand-prix",1957
+"39","18","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","20","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","monaco-grand-prix",1957
+"40","22","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","24","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1957
+"41","24","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","26","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1957
+"42","28","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","30","Maurice Trintignant","France","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1957
+"43","32","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","34","Giorgio Scarlatti","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1957
+"44","34","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","35","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250-T2","monaco-grand-prix",1957
+"45","36","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","38","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1957
+"46","40","Hans Herrmann","Germany","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","42","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","monaco-grand-prix",1957
+"47","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1957
+"48","6","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1957
+"49","10","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","12","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","british-grand-prix",1957
+"50","14","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","16","Maurice Trintignant","France","Scuderia Ferrari","Ferrari D50","Ferrari DS50","british-grand-prix",1957
+"51","16","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","18","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","british-grand-prix",1957
+"52","18","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","20","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","british-grand-prix",1957
+"53","20","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","22","Stuart Lewis-Evans","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","british-grand-prix",1957
+"54","24","Jack Fairman","Great Britain","Owen Racing Organisation","BRM P25","BRM P257","26","Les Leston","Great Britain","Owen Racing Organisation","BRM P25","BRM P257","british-grand-prix",1957
+"55","28","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","30","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","british-grand-prix",1957
+"56","32","Ivor Bueb","Great Britain","Gilby Engineering","Maserati 250F","Maserati 250F","34","Jack Brabham","Australia","R R C Walker Racing Team","Cooper T43","Climax FPF1.9","british-grand-prix",1957
+"57","36","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T43","Climax FPF1.9","38","Bob Gerard","Great Britain","F R Gerard Cars","Cooper T44","Bristol 401","british-grand-prix",1957
+"58","1","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","2","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","german-grand-prix",1957
+"59","3","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Giorgio Scarlatti","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","german-grand-prix",1957
+"60","6","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","7","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","german-grand-prix",1957
+"61","8","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","10","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","german-grand-prix",1957
+"62","11","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","12","Stuart Lewis-Evans","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","german-grand-prix",1957
+"63","15","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","16","Masten Gregory","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","german-grand-prix",1957
+"64","17","Hans Herrmann","Germany","Scuderia Centro Sud","Maserati 250F","Maserati 250F","18","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","german-grand-prix",1957
+"65","19","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","20","Umberto Maglioli","Italy","Dr Ing F Porsche KG","Porsche 550RS","Porsche 547","german-grand-prix",1957
+"66","21","Edgar Barth","Germany","Dr Ing F Porsche KG","Porsche 550RS","Porsche 547","23","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T43","Climax FPF1.9","german-grand-prix",1957
+"67","24","Jack Brabham","Australia","R R C Walker Racing Team","Cooper T43","Climax FPF1.9","25","Tony Marsh","Great Britain","Ridgeway Management","Cooper T43","Climax FPF1.9","german-grand-prix",1957
+"68","26","Paul England","Australia","Ridgeway Management","Cooper T41","Climax FWB","27","Carel Godin de Beaufort","Netherlands","Ecurie Maarsbergen","Porsche 550RS","Porsche 547","german-grand-prix",1957
+"69","28","Brian Naylor","Great Britain","J B Naylor","Cooper T43","Climax FPF1.9","29","Dick Gibson","Great Britain","R Gibson","Cooper T43","Climax FPF1.9","german-grand-prix",1957
+"70","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","pescara-grand-prix",1957
+"71","6","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Giorgio Scarlatti","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","pescara-grand-prix",1957
+"72","10","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","12","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","pescara-grand-prix",1957
+"73","14","Masten Gregory","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","16","Jo Bonnier","Sweden","Scuderia Centro Sud","Maserati 250F","Maserati 250F","pescara-grand-prix",1957
+"74","18","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","20","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","pescara-grand-prix",1957
+"75","22","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T43","Climax FPF1.5","24","Jack Brabham","Australia","Cooper Car Co","Cooper T43","Climax FPF1.5","pescara-grand-prix",1957
+"76","26","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","28","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","pescara-grand-prix",1957
+"77","30","Stuart Lewis-Evans","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","34","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","pescara-grand-prix",1957
+"78","2","Juan Manuel Fangio","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"79","6","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250-T2","8","Giorgio Scarlatti","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"80","8","Harry Schell","USA","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","10","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"81","12","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","14","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"82","16","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","18","Stirling Moss","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","italian-grand-prix",1957
+"83","20","Stuart Lewis-Evans","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","22","Tony Brooks","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","italian-grand-prix",1957
+"84","24","Jo Bonnier","Sweden","Scuderia Centro Sud","Maserati 250F","Maserati 250F","26","Masten Gregory","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"85","28","Andre Simon","France","Ottorino Volonterio","Maserati 250F","Maserati 250F","28","Ottorino Volonterio","Switzerland","Ottorino Volonterio","Maserati 250F","Maserati 250F","italian-grand-prix",1957
+"86","30","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","32","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","italian-grand-prix",1957
+"87","34","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","36","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari D50","Ferrari DS50","italian-grand-prix",1957

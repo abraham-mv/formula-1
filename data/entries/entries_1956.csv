@@ -1,0 +1,100 @@
+"","#","Driver","Nat","Team","Car","Engine","NA","NA","NA","NA","NA","NA","gp_name","year"
+"1","2","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","french-grand-prix",1956
+"2","6","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","6","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","french-grand-prix",1956
+"3","8","Piero Taruffi","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","10","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","french-grand-prix",1956
+"4","12","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","14","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","french-grand-prix",1956
+"5","16","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","22","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","french-grand-prix",1956
+"6","24","Mike Hawthorn","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","24","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","french-grand-prix",1956
+"7","26","Colin Chapman","Great Britain","Vandervell Products Ltd","Vanwall","Vanwall 2.5","28","Maurice Trintignant","France","Automobiles Bugatti","Bugatti T251","Bugatti T251","french-grand-prix",1956
+"8","30","Robert Manzon","France","Equipe Gordini","Gordini T32","Gordini 25","32","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T32","Gordini 25","french-grand-prix",1956
+"9","34","Andre Pilette","Belgium","Equipe Gordini","Gordini T16","Gordini 23","36","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","french-grand-prix",1956
+"10","38","Luigi Villoresi","Italy","L Piotti","Maserati 250F","Maserati 250F","40","Paco Godia","Spain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","french-grand-prix",1956
+"11","42","Andre Simon","France","A Simon","Maserati 250F","Maserati 250F","44","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari D50","Ferrari DS50","french-grand-prix",1956
+"12","1","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","2","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","german-grand-prix",1956
+"13","3","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","4","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","german-grand-prix",1956
+"14","4","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","5","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","german-grand-prix",1956
+"15","5","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","6","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","german-grand-prix",1956
+"16","7","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Umberto Maglioli","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","german-grand-prix",1956
+"17","8","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","10","Robert Manzon","France","Equipe Gordini","Gordini T32","Gordini 25","german-grand-prix",1956
+"18","11","Andre Milhoux","Belgium","Equipe Gordini","Gordini T32","Gordini 25","11","Andre Pilette","Belgium","Equipe Gordini","Gordini T32","Gordini 25","german-grand-prix",1956
+"19","12","Harry Schell","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","14","Giorgio Scarlatti","Italy","Scuderia Centro Sud","Ferrari 500","Ferrari 500","german-grand-prix",1956
+"20","15","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","16","Roy Salvadori","Great Britain","Gilby Engineering","Maserati 250F","Maserati 250F","german-grand-prix",1956
+"21","18","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","18","Luigi Villoresi","Italy","L Piotti","Maserati 250F","Maserati 250F","german-grand-prix",1956
+"22","19","Horace Gould","Great Britain","Goulds Garage","Maserati 250F","Maserati 250F","20","Paco Godia","Spain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","german-grand-prix",1956
+"23","21","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","22","Ottorino Volonterio","Switzerland","Ottorino Volonterio","Maserati A6GCM","Maserati 250F","german-grand-prix",1956
+"24","1","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","2","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","british-grand-prix",1956
+"25","3","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","3","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","british-grand-prix",1956
+"26","4","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","4","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari 2.5 V8","british-grand-prix",1956
+"27","6","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","7","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"28","8","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","10","Robert Manzon","France","Equipe Gordini","Gordini T32","Gordini 25","british-grand-prix",1956
+"29","11","Luigi Villoresi","Italy","L Piotti","Maserati 250F","Maserati 250F","12","Umberto Maglioli","Italy","Scuderia Guastalla","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"30","15","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","16","Roy Salvadori","Great Britain","Gilby Engineering","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"31","17","Maurice Trintignant","France","Vandervell Products Ltd","","","18","Jose Froilan Gonzalez","Argentina","Vandervell Products Ltd","","","british-grand-prix",1956
+"32","19","Archie Scott Brown","Great Britain","Connaught Engineering","Connaught B","Alta","20","Paco Godia","Spain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"33","20","Desmond Titterington","Great Britain","Connaught Engineering","Connaught B","Alta","21","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"34","21","Jack Fairman","Great Britain","Connaught Engineering","Connaught B","Alta","23","Mike Hawthorn","Great Britain","Owen Racing Organisation","BRM P25","BRM 2.5 L4","british-grand-prix",1956
+"35","24","Tony Brooks","Great Britain","Owen Racing Organisation","BRM P25","BRM 2.5 L4","24","Harry Schell","USA","Vandervell Products Ltd","","","british-grand-prix",1956
+"36","25","Ron Flockhart","Great Britain","Owen Racing Organisation","BRM P25","BRM 2.5 L4","26","Bob Gerard","Great Britain","F R Gerard Cars","Cooper T23","Bristol 401","british-grand-prix",1956
+"37","30","Jack Brabham","Australia","J A Brabham","Maserati 250F","Maserati 250F","31","Horace Gould","Great Britain","Goulds Garage","Maserati 250F","Maserati 250F","british-grand-prix",1956
+"38","32","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T32","Gordini 25","32","Paul Emery","Great Britain","Emeryson Cars","Emeryson","Alta","british-grand-prix",1956
+"39","1","Bob Sweikert","USA","Racing Associates","Kuzma","Offenhauser","2","Jimmy Bryan","USA","Dean Van Lines","Kuzma","Offenhauser","indianapolis-500",1956
+"40","4","Sam Hanks","USA","Cars Inc","Kurtis Kraft 500C","Offenhauser","5","Andy Linden","USA","H A Chapman","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"41","7","Pat O'Connor","USA","Ansted Rotary Corp","Kurtis Kraft 500D","Offenhauser","8","Pat Flaherty","USA","John Zink","Watson","Offenhauser","indianapolis-500",1956
+"42","10","Ed Elisian","USA","Fred Somers","Kurtis Kraft 500C","Offenhauser","10","Eddie Russo","USA","Fred Somers","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"43","12","Al Herman","USA","Pat Clancy","Kurtis Kraft 500B","Offenhauser","14","Bob Veith","USA","Federal Auto Associates","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"44","15","Johnny Boyd","USA","George Bignotti","Kurtis Kraft 500E","Offenhauser","16","Don Freeland","USA","Bob Estes","Phillips","Offenhauser","indianapolis-500",1956
+"45","19","Rodger Ward","USA","Ed Walsh","Kurtis Kraft 500C","Offenhauser","24","Jim Rathmann","USA","Lindsey Hopkins","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"46","26","Jimmy Reece","USA","Joseph Massaglia Jr","Lesovsky","Offenhauser","27","Cliff Griffith","USA","Jim Robbins","Stevens","Offenhauser","indianapolis-500",1956
+"47","29","Paul Russo","USA","Novi Racing Corp","Kurtis Kraft","Novi","34","Johnnie Tolan","USA","Carl L Anderson","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"48","41","Billy Garrett","USA","E R Casale","Kuzma","Offenhauser","42","Fred Agabashian","USA","Federal Auto Associates","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"49","48","Jimmy Daywalt","USA","Chapman S Root","Kurtis Kraft 500D","Offenhauser","49","Ray Crawford","USA","Ray Crawford","Kurtis Kraft 500B","Offenhauser","indianapolis-500",1956
+"50","53","Troy Ruttman","USA","John Zink","Kurtis Kraft 500C","Offenhauser","54","Jack Turner","USA","Ernest L Ruiz","Kurtis Kraft 500B","Offenhauser","indianapolis-500",1956
+"51","55","Al Keller","USA","Samuel W Traylor III","Kurtis Kraft 4000","Offenhauser","57","Bob Christie","USA","H H Johnson","Kurtis Kraft 500D","Offenhauser","indianapolis-500",1956
+"52","64","Duke Dinsmore","USA","Shannon Bros","Kurtis Kraft 500A","Offenhauser","73","Dick Rathmann","USA","Kalamazoo Sports Inc","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"53","81","Eddie Johnson","USA","Pete Salemi","Kuzma","Offenhauser","82","Gene Hartley","USA","Pete Salemi","Kuzma","Offenhauser","indianapolis-500",1956
+"54","88","Johnny Thomson","USA","Peter Schmidt","Kuzma","Offenhauser","89","Keith Andrews","USA","Harry Dunn","Kurtis Kraft 500B","Offenhauser","indianapolis-500",1956
+"55","98","Johnnie Parsons","USA","J C Agajanian","Kuzma","Offenhauser","99","Tony Bettenhausen","USA","Murrell Belanger","Kurtis Kraft 500C","Offenhauser","indianapolis-500",1956
+"56","2","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","4","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1956
+"57","6","Carlos Menditeguy","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","8","Luigi Piotti","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1956
+"58","10","Chico Landi","Brazil","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","10","Gerino Gerini","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","argentine-grand-prix",1956
+"59","12","Jose Froilan Gonzalez","Argentina","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","14","Mike Hawthorn","Great Britain","Owen Racing Organisation","Maserati 250F","Maserati 250F","argentine-grand-prix",1956
+"60","18","Alberto Uria","Uruguay","A Uria","Maserati A6GCM","Maserati 250F","18","Óscar González","Uruguay","A Uria","Maserati A6GCM","Maserati 250F","argentine-grand-prix",1956
+"61","30","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","32","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1956
+"62","34","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","34","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","argentine-grand-prix",1956
+"63","36","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 555","Ferrari 555","38","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari 555","Ferrari DS50","argentine-grand-prix",1956
+"64","2","Les Leston","Great Britain","Connaught Engineering","Connaught B","Alta","4","Ron Flockhart","Great Britain","Connaught Engineering","Connaught B","Alta","italian-grand-prix",1956
+"65","6","Jack Fairman","Great Britain","Connaught Engineering","Connaught B","Alta","8","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T32","Gordini 25","italian-grand-prix",1956
+"66","10","Robert Manzon","France","Equipe Gordini","Gordini T32","Gordini 25","12","Andre Simon","France","Equipe Gordini","Gordini T16","Gordini 23","italian-grand-prix",1956
+"67","14","Emmanuel de Graffenried","Switzerland","Scuderia Centro Sud","Maserati 250F","Maserati 250F","16","Piero Taruffi","Italy","Vandervell Products Ltd","Vanwall","Vanwall 2.5","italian-grand-prix",1956
+"68","18","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","20","Maurice Trintignant","France","Vandervell Products Ltd","Vanwall","Vanwall 2.5","italian-grand-prix",1956
+"69","22","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","22","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","italian-grand-prix",1956
+"70","24","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","26","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","italian-grand-prix",1956
+"71","26","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","28","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","italian-grand-prix",1956
+"72","30","Alfonso de Portago","Spain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","32","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"73","34","Luigi Villoresi","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","34","Jo Bonnier","Sweden","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"74","36","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","38","Paco Godia","Spain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"75","40","Luigi Piotti","Italy","L Piotti","Maserati 250F","Maserati 250F","42","Gerino Gerini","Italy","Scuderia Guastalla","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"76","44","Roy Salvadori","Great Britain","Gilby Engineering","Maserati 250F","Maserati 250F","46","Umberto Maglioli","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"77","46","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","48","Bruce Halford","Great Britain","B Halford","Maserati 250F","Maserati 250F","italian-grand-prix",1956
+"78","50","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari D50","Ferrari DS50","?","Juan Rezende Dos Santos
+","Venezuela","Equipe Gordini","Gordini T32","Gordini 25","italian-grand-prix",1956
+"79","2","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","4","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","belgian-grand-prix",1956
+"80","6","Paul Frere","Belgium","Scuderia Ferrari","Ferrari D50","Ferrari DS50","8","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","belgian-grand-prix",1956
+"81","10","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","12","Maurice Trintignant","France","Vandervell Products Ltd","Vanwall","Vanwall 2.5","belgian-grand-prix",1956
+"82","20","Andre Pilette","Belgium","Scuderia Ferrari","Ferrari D50","Ferrari DS50","22","Luigi Villoresi","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","belgian-grand-prix",1956
+"83","24","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","26","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","belgian-grand-prix",1956
+"84","28","Piero Scotti","Italy","P Scotti","Connaught B","Alta","30","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","belgian-grand-prix",1956
+"85","32","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","34","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","belgian-grand-prix",1956
+"86","34","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","36","Paco Godia","Spain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","belgian-grand-prix",1956
+"87","38","Mike Hawthorn","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","2","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","belgian-grand-prix",1956
+"88","2","Robert Manzon","France","Equipe Gordini","Gordini T16","Gordini 23","4","Elie Bayol","France","Equipe Gordini","Gordini T32","Gordini 25","monaco-grand-prix",1956
+"89","4","Andre Pilette","Belgium","Equipe Gordini","Gordini T32","Gordini 25","6","Nano da Silva Ramos","Brazil","Equipe Gordini","Gordini T16","Gordini 23","monaco-grand-prix",1956
+"90","8","Louis Rosier","France","Ecurie Rosier","Maserati 250F","Maserati 250F","10","Mike Hawthorn","Great Britain","Owen Racing Organisation","BRM P25","BRM P256","monaco-grand-prix",1956
+"91","12","Tony Brooks","Great Britain","Owen Racing Organisation","BRM P25","BRM P256","14","Maurice Trintignant","France","Vandervell Products Ltd","Vanwall","Vanwall 2.5","monaco-grand-prix",1956
+"92","16","Harry Schell","USA","Vandervell Products Ltd","Vanwall","Vanwall 2.5","18","Horace Gould","Great Britain","Goulds' Garage","Maserati 250F","Maserati 250F","monaco-grand-prix",1956
+"93","20","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","20","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1956
+"94","22","Eugenio Castellotti","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","24","Luigi Musso","Italy","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1956
+"95","26","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari D50","Ferrari DS50","26","Juan Manuel Fangio","Argentina","Scuderia Ferrari","Ferrari D50","Ferrari DS50","monaco-grand-prix",1956
+"96","28","Stirling Moss","Great Britain","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","30","Jean Behra","France","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","monaco-grand-prix",1956
+"97","32","Cesare Perdisa","Italy","Officine Alfieri Maserati","Maserati 250F","Maserati 250F","34","Louis Chiron","Monaco","Scuderia Centro Sud","Maserati 250F","Maserati 250F","monaco-grand-prix",1956
+"98","36","Giorgio Scarlatti","Italy","Giorgio Scarlatti","Ferrari 500","Ferrari 500","2","Robert Manzon","France","Equipe Gordini","Gordini T16","Gordini 23","monaco-grand-prix",1956

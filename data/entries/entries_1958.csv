@@ -1,0 +1,125 @@
+"","#","Driver","Nat","Team","Car","Engine","NA","NA","NA","NA","NA","NA","gp_name","year"
+"1","1","Jimmy Bryan","USA","George Salih","Salih","Offenhauser","2","Jim Rathmann","USA","Lindsey Hopkins","Epperly","Offenhauser","indianapolis-500",1958
+"2","4","Pat O'Connor","USA","Chapman S Root","Kurtis Kraft 500G","Offenhauser","5","Ed Elisian","USA","Ellen McKinney Zink","Watson","Offenhauser","indianapolis-500",1958
+"3","7","Johnny Thomson","USA","Racing Associates","Kurtis Kraft","Offenhauser","8","Rodger Ward","USA","Roger Wolcott","Lesovsky","Offenhauser","indianapolis-500",1958
+"4","9","Johnny Boyd","USA","Robert M Bowes II","Kurtis Kraft 500G","Offenhauser","14","Bob Veith","USA","Robert M Bowes II","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1958
+"5","15","Paul Russo","USA","Novi Racing Corp","Kurtis Kraft","Novi","16","Jimmy Reece","USA","John Zink","Watson","Offenhauser","indianapolis-500",1958
+"6","19","Johnnie Tolan","USA","Lysle Greenman","Kuzma","Offenhauser","25","Jack Turner","USA","Joseph Massaglia Jr","Lesovsky","Offenhauser","indianapolis-500",1958
+"7","26","Don Freeland","USA","Bob Estes","Phillips","Offenhauser","29","A.J. Foyt","USA","Dean Van Lines","Kuzma","Offenhauser","indianapolis-500",1958
+"8","31","Paul Goldsmith","USA","Henry Yunik","Kurtis Kraft 500G","Offenhauser","33","Tony Bettenhausen","USA","Cars Inc","Epperly","Offenhauser","indianapolis-500",1958
+"9","43","Billy Garrett","USA","H A Chapman","Kurtis Kraft 500G","Offenhauser","44","Jud Larson","USA","John Zink","Watson","Offenhauser","indianapolis-500",1958
+"10","45","Johnnie Parsons","USA","Fred Gerhardt","Kurtis Kraft","Offenhauser","52","Al Keller","USA","Pat Clancy","Kurtis Kraft 500G2","Offenhauser","indianapolis-500",1958
+"11","54","Bill Cheesbourg","USA","Novi Racing Corp","Kurtis Kraft","Novi","57","Art Bisch","USA","H H Johnson","Kuzma","Offenhauser","indianapolis-500",1958
+"12","59","Dempsey Wilson","USA","Bob Sorenson","Kuzma","Offenhauser","61","Eddie Johnson","USA","J S Donaldson","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1958
+"13","65","Bob Christie","USA","Federal Auto Associates","Kurtis Kraft 500C","Offenhauser","68","Len Sutton","USA","Jim Robbins","Kurtis Kraft 500G","Offenhauser","indianapolis-500",1958
+"14","77","Mike Magill","USA","George Walther Jr","Kurtis Kraft 500G","Offenhauser","83","Shorty Templeman","USA","Kalamazoo Sports Inc","Kurtis Kraft 500D","Offenhauser","indianapolis-500",1958
+"15","88","Eddie Sachs","USA","Peter Schmidt","Kuzma","Offenhauser","89","Chuck Weyant","USA","Harry Dunn","Dunn","Offenhauser","indianapolis-500",1958
+"16","92","Jerry Unser","USA","Roy McKay","Kurtis Kraft 500G","Offenhauser","97","Dick Rathmann","USA","Kalamazoo Sports Inc","Watson","Offenhauser","indianapolis-500",1958
+"17","99","George Amick","USA","Norman C Demler","Epperly","Offenhauser","1","Jimmy Bryan","USA","George Salih","Salih","Offenhauser","indianapolis-500",1958
+"18","1","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","2","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","british-grand-prix",1958
+"19","3","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 246","4","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T43","Climax FPF2.0","british-grand-prix",1958
+"20","5","Carroll Shelby","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","6","Gerino Gerini","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","british-grand-prix",1958
+"21","7","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","8","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","british-grand-prix",1958
+"22","9","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","10","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.2","british-grand-prix",1958
+"23","11","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF2.0","12","Ian Burgess","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.0","british-grand-prix",1958
+"24","14","Jack Fairman","Great Britain","B C Ecclestone","Connaught B","Alta","14","Bernie Ecclestone","Great Britain","B C Ecclestone","Connaught B","Alta","british-grand-prix",1958
+"25","15","Ivor Bueb","Great Britain","B C Ecclestone","Connaught B","Alta","16","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax FPF2.0","british-grand-prix",1958
+"26","17","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","18","Alan Stacey","Great Britain","Team Lotus","Lotus 16","Climax FPF2.0","british-grand-prix",1958
+"27","19","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","20","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","british-grand-prix",1958
+"28","22","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","1","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","british-grand-prix",1958
+"29","2","Stirling Moss","Great Britain","Vandervell Products","","","4","Tony Brooks","Great Britain","Vandervell Products","","","dutch-grand-prix",1958
+"30","4","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","5","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","dutch-grand-prix",1958
+"31","6","Stuart Lewis-Evans","Great Britain","Vandervell Products","","","6","Luigi Musso","Italy","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","dutch-grand-prix",1958
+"32","7","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax 2.0 L4","8","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax 2.0 L4","dutch-grand-prix",1958
+"33","10","Giorgio Scarlatti","Italy","Giorgio Scarlatti","Maserati 250F","Maserati 250F","11","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","dutch-grand-prix",1958
+"34","12","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","12","Masten Gregory","USA","H H Gould","Maserati 250F","Maserati 250F","dutch-grand-prix",1958
+"35","14","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM 2.5 L4","15","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM 2.5 L4","dutch-grand-prix",1958
+"36","16","Graham Hill","Great Britain","Team Lotus","Lotus 12","Climax 2.0 L4","17","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax 2.2 L4","dutch-grand-prix",1958
+"37","36","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax 2.0 L4","2","Stirling Moss","Great Britain","Vandervell Products","","","dutch-grand-prix",1958
+"38","2","Luigi Musso","Italy","Scuderia Ferrari","Ferrari 246","Ferrari 246","4","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","french-grand-prix",1958
+"39","6","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 246","8","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","french-grand-prix",1958
+"40","10","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","12","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","french-grand-prix",1958
+"41","12","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","14","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","french-grand-prix",1958
+"42","16","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","18","Maurice Trintignant","France","Owen Racing Organisation","BRM P25","BRM P258","french-grand-prix",1958
+"43","20","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.0","22","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF2.2","french-grand-prix",1958
+"44","24","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax FPF2.0","26","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","french-grand-prix",1958
+"45","28","Carroll Shelby","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","30","Troy Ruttman","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","french-grand-prix",1958
+"46","32","Gerino Gerini","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","34","Juan Manuel Fangio","Argentina","Juan Manuel Fangio","Maserati 250F","Maserati 250F","french-grand-prix",1958
+"47","36","Phil Hill","USA","Jo Bonnier","Maserati 250F","Maserati 250F","38","Jo Bonnier","Sweden","Giorgio Scarlatti","Maserati 250F","Maserati 250F","french-grand-prix",1958
+"48","40","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","42","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","french-grand-prix",1958
+"49","4","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","6","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","monaco-grand-prix",1958
+"50","8","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","10","Ron Flockhart","Great Britain","Owen Racing Organisation","BRM P25","BRM P258","monaco-grand-prix",1958
+"51","12","Bruce Kessler","USA","B C Ecclestone","Connaught B","Alta","12","Bernie Ecclestone","Great Britain","B C Ecclestone","Connaught B","Alta","monaco-grand-prix",1958
+"52","14","Paul Emery","Great Britain","B C Ecclestone","Connaught B","Alta","16","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF2.2","monaco-grand-prix",1958
+"53","18","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.0","20","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax FPF2.0","monaco-grand-prix",1958
+"54","22","Ron Flockhart","Great Britain","R R C Walker Racing Team","Cooper T43","Climax FPF2.0","24","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","monaco-grand-prix",1958
+"55","26","Graham Hill","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","28","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","monaco-grand-prix",1958
+"56","30","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","32","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","monaco-grand-prix",1958
+"57","34","Luigi Musso","Italy","Scuderia Ferrari","Ferrari 246","Ferrari 246","36","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","monaco-grand-prix",1958
+"58","38","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","40","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 246","monaco-grand-prix",1958
+"59","42","Horace Gould","Great Britain","Scuderia Centro Sud","Maserati 250F","Maserati 250F","44","Maria Teresa de Filippis","Italy","Maria Teresa de Filippis","Maserati 250F","Maserati 250F","monaco-grand-prix",1958
+"60","46","Giorgio Scarlatti","Italy","Giorgio Scarlatti","Maserati 250F","Maserati 250F","48","Gerino Gerini","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","monaco-grand-prix",1958
+"61","50","Ken Kavanagh","Australia","Ken Kavanagh","Maserati 250F","Maserati 250F","50","Luigi Taramazzo","Italy","Ken Kavanagh","Maserati 250F","Maserati 250F","monaco-grand-prix",1958
+"62","52","Giulio Cabianca","Italy","Automobili OSCA","OSCA","Osca","54","Luigi Piotti","Italy","Automobili OSCA","OSCA","Osca","monaco-grand-prix",1958
+"63","56","Andre Testut","Monaco","Andre Testut","Maserati 250F","Maserati 250F","56","Louis Chiron","Monaco","Andre Testut","Maserati 250F","Maserati 250F","monaco-grand-prix",1958
+"64","58","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","4","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","monaco-grand-prix",1958
+"65","2","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax FPF2.2","4","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF2.0","italian-grand-prix",1958
+"66","6","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.2","8","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","italian-grand-prix",1958
+"67","10","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","12","Jo Bonnier","Sweden","Owen Racing Organisation","BRM P25","BRM P258","italian-grand-prix",1958
+"68","14","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","16","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 246","italian-grand-prix",1958
+"69","18","Phil Hill","USA","Scuderia Ferrari","Ferrari 246","Ferrari 246","20","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari 246","Ferrari 246","italian-grand-prix",1958
+"70","22","Giulio Cabianca","Italy","Jo Bonnier","Maserati 250F","Maserati 250F","24","Hans Herrmann","Germany","Jo Bonnier","Maserati 250F","Maserati 250F","italian-grand-prix",1958
+"71","26","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","28","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","italian-grand-prix",1958
+"72","30","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","32","Masten Gregory","USA","Temple Buell","Maserati 250F","Maserati 250F","italian-grand-prix",1958
+"73","32","Carroll Shelby","USA","Temple Buell","Maserati 250F","Maserati 250F","34","Carroll Shelby","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","italian-grand-prix",1958
+"74","36","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","38","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax FPF2.0","italian-grand-prix",1958
+"75","40","Gerino Gerini","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","42","Maria Teresa de Filippis","Italy","Maria Teresa de Filippis","Maserati 250F","Maserati 250F","italian-grand-prix",1958
+"76","2","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","4","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","belgian-grand-prix",1958
+"77","6","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","8","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","belgian-grand-prix",1958
+"78","10","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","14","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","belgian-grand-prix",1958
+"79","16","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","18","Luigi Musso","Italy","Scuderia Ferrari","Ferrari 246","Ferrari 246","belgian-grand-prix",1958
+"80","20","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari 246","Ferrari 246","22","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF2.2","belgian-grand-prix",1958
+"81","24","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF2.0","26","Maria Teresa de Filippis","Italy","Maria Teresa de Filippis","Maserati 250F","Maserati 250F","belgian-grand-prix",1958
+"82","28","Maurice Trintignant","France","Scuderia Centro Sud","Maserati 250F","Maserati 250F","30","Masten Gregory","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","belgian-grand-prix",1958
+"83","32","Wolfgang Seidel","Germany","Scuderia Centro Sud","Maserati 250F","Maserati 250F","34","Ken Kavanagh","Australia","Ken Kavanagh","Maserati 250F","Maserati 250F","belgian-grand-prix",1958
+"84","36","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","38","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","belgian-grand-prix",1958
+"85","40","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF2.2","42","Graham Hill","Great Britain","Team Lotus","Lotus 12","Climax FPF2.0","belgian-grand-prix",1958
+"86","4","Jean Behra","France","Ken Kavanagh","Maserati 250F","Maserati 250F","6","Carlos Menditeguy","Argentina","Scuderia Sud Americana","Maserati 250F","Maserati 250F","argentine-grand-prix",1958
+"87","8","Harry Schell","USA","Jo Bonnier","Maserati 250F","Maserati 250F","12","Horace Gould","Great Britain","H H Gould","Maserati 250F","Maserati 250F","argentine-grand-prix",1958
+"88","14","Stirling Moss","Great Britain","R R C Walker Racing Team","Cooper T43","Climax 2.0 L4","16","Luigi Musso","Italy","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","argentine-grand-prix",1958
+"89","18","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","20","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","argentine-grand-prix",1958
+"90","34","Juan Manuel Fangio","Argentina","Scuderia Sud Americana","Maserati 250F","Maserati 250F","38","Paco Godia","Spain","Francisco Godia Sales","Maserati 250F","Maserati 250F","argentine-grand-prix",1958
+"91","2","Peter Collins","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","3","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 246","german-grand-prix",1958
+"92","4","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 246","5","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","german-grand-prix",1958
+"93","6","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","7","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","german-grand-prix",1958
+"94","8","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","10","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF1.9","german-grand-prix",1958
+"95","11","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax FPF1.9","12","Cliff Allison","Great Britain","Team Lotus","Lotus 16","Climax FPF1.9","german-grand-prix",1958
+"96","14","Troy Ruttman","USA","Scuderia Centro Sud","Maserati 250F","Maserati 250F","16","Jo Bonnier","Sweden","Scuderia Centro Sud","Maserati 250F","Maserati 250F","german-grand-prix",1958
+"97","17","Hans Herrmann","Germany","Scuderia Centro Sud","Maserati 250F","Maserati 250F","18","Carel Godin de Beaufort","Netherlands","Ecurie Maarsbergen","Porsche 550RS","Porsche","german-grand-prix",1958
+"98","19","Dick Gibson","Great Britain","R Gibson","Cooper T43","Climax FPF1.9","20","Bruce McLaren","New Zealand","Cooper Car Co","Cooper T43","Climax FPF1.9","german-grand-prix",1958
+"99","21","Edgar Barth","Germany","Dr Ing F Porsche KG","Porsche RSK","Porsche","22","Wolfgang Seidel","Germany","R R C Walker Racing Team","Cooper T43","Climax FPF1.9","german-grand-prix",1958
+"100","23","Phil Hill","USA","Scuderia Ferrari","Ferrari 156","Ferrari 156","24","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF1.9","german-grand-prix",1958
+"101","25","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax FPF1.9","26","Ian Burgess","Great Britain","High Efficiency Motors","Cooper T43","Climax FPF1.9","german-grand-prix",1958
+"102","27","Christian Goethals","Belgium","Ecurie Eperon d'Or","Cooper T43","Climax FPF1.9","28","Ivor Bueb","Great Britain","Ecurie Demi Litre","Lotus 12","Climax FPF1.9","german-grand-prix",1958
+"103","29","Brian Naylor","Great Britain","J B Naylor","Cooper T45","Climax FPF1.9","30","Tony Marsh","Great Britain","Tony Marsh","Cooper T45","Climax FPF1.9","german-grand-prix",1958
+"104","2","Stirling Moss","Great Britain","Vandervell Products","","","4","Tony Brooks","Great Britain","Vandervell Products","","","portuguese-grand-prix",1958
+"105","6","Stuart Lewis-Evans","Great Britain","Vandervell Products","","","8","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM 2.5 L4","portuguese-grand-prix",1958
+"106","10","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM 2.5 L4","14","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax 2.0 L4","portuguese-grand-prix",1958
+"107","16","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax 2.0 L4","18","Cliff Allison","Great Britain","Scuderia Centro Sud","Maserati 250F","Maserati 250F","portuguese-grand-prix",1958
+"108","20","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax 2.0 L4","22","Wolfgang von Trips","Germany","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","portuguese-grand-prix",1958
+"109","24","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 2.4 V6","28","Carroll Shelby","USA","Temple Buell","Maserati 250F","Maserati 250F","portuguese-grand-prix",1958
+"110","30","Maria Teresa de Filippis","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","32","Jo Bonnier","Sweden","Jo Bonnier","Maserati 250F","Maserati 250F","portuguese-grand-prix",1958
+"111","36","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax 2.0 L4","2","Stirling Moss","Great Britain","Vandervell Products","","","portuguese-grand-prix",1958
+"112","2","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari 246","Ferrari 246","4","Phil Hill","USA","Scuderia Ferrari","Ferrari 246","Ferrari 246","moroccan-grand-prix",1958
+"113","6","Mike Hawthorn","Great Britain","Scuderia Ferrari","Ferrari 246","Ferrari 256","8","Stirling Moss","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","moroccan-grand-prix",1958
+"114","10","Tony Brooks","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","12","Stuart Lewis-Evans","Great Britain","Vandervell Products","Vanwall","Vanwall 2.5","moroccan-grand-prix",1958
+"115","14","Jean Behra","France","Owen Racing Organisation","BRM P25","BRM P258","16","Harry Schell","USA","Owen Racing Organisation","BRM P25","BRM P258","moroccan-grand-prix",1958
+"116","18","Jo Bonnier","Sweden","Owen Racing Organisation","BRM P25","BRM P258","20","Ron Flockhart","Great Britain","Owen Racing Organisation","BRM P25","BRM P258","moroccan-grand-prix",1958
+"117","22","Masten Gregory","USA","Temple Buell","Maserati 250F","Maserati 250F","24","Wolfgang Seidel","Germany","Scuderia Centro Sud","Maserati 250F","Maserati 250F","moroccan-grand-prix",1958
+"118","26","Gerino Gerini","Italy","Scuderia Centro Sud","Maserati 250F","Maserati 250F","28","Roy Salvadori","Great Britain","Cooper Car Co","Cooper T45","Climax FPF1.9","moroccan-grand-prix",1958
+"119","30","Jack Fairman","Great Britain","Cooper Car Co","Cooper T45","Climax FPF1.9","32","Graham Hill","Great Britain","Team Lotus","Lotus 16","Climax FPF1.9","moroccan-grand-prix",1958
+"120","34","Cliff Allison","Great Britain","Team Lotus","Lotus 12","Climax FPF1.9","36","Maurice Trintignant","France","R R C Walker Racing Team","Cooper T45","Climax FPF1.9","moroccan-grand-prix",1958
+"121","38","Hans Herrmann","Germany","Jo Bonnier","Maserati 250F","Maserati 250F","50","Jack Brabham","Australia","Cooper Car Co","Cooper T45","Climax FPF1.9","moroccan-grand-prix",1958
+"122","52","Bruce McLaren","New Zealand","Cooper Car Co","Cooper T45","Climax FPF1.9","54","Francois Picard","France","R R C Walker Racing Team","Cooper T43","Climax FPF1.9","moroccan-grand-prix",1958
+"123","56","Tommy Bridger","Great Britain","British Racing Partnership","Cooper T45","Climax FPF1.9","58","Robert La Caze","France","Robert La Caze","Cooper T45","Climax FPF1.9","moroccan-grand-prix",1958
+"124","60","Andre Guelfi","France","Andre Guelfi","Cooper T45","Climax FPF1.9","2","Olivier Gendebien","Belgium","Scuderia Ferrari","Ferrari 246","Ferrari 246","moroccan-grand-prix",1958

@@ -1,0 +1,94 @@
+"","#","Driver","Nat","Team","Car","Engine","NA","NA","NA","NA","NA","NA","gp_name","year"
+"1","2","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","6","Consalvo Sanesi","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","french-grand-prix",1951
+"2","8","Luigi Fagioli","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","10","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","french-grand-prix",1951
+"3","12","Maurice Trintignant","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","12","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","french-grand-prix",1951
+"4","14","Robert Manzon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","14","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 375","Ferrari V12","french-grand-prix",1951
+"5","14","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","16","Andre Simon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","french-grand-prix",1951
+"6","22","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","24","Peter Whitehead","Great Britain","Ferrari","Ferrari 125","Ferrari 125","french-grand-prix",1951
+"7","24","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","24","Luigi Fagioli","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","french-grand-prix",1951
+"8","26","Reg Parnell","Great Britain","G A Vandervell","Ferrari 375","Ferrari 375","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","french-grand-prix",1951
+"9","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","french-grand-prix",1951
+"10","32","Harry Schell","USA","Scuderia Enrico Platé","Maserati 4CLT-48","Maserati 4CL","34","Philippe Etancelin","France","Philippe Etancelin","Talbot-Lago T26C-DA","Talbot 23CV","french-grand-prix",1951
+"11","36","Aldo Gordini","France","Equipe Gordini","Simca-Gordini T11","Simca-Gordini 16","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","french-grand-prix",1951
+"12","40","Guy Mairesse","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","44","Eugene Chaboud","France","Eugene Chaboud","Talbot-Lago T26C-GS","Talbot 23CV","french-grand-prix",1951
+"13","50","Onofre Marimon","Argentina","Scuderia Milano","Maserati 4CLT-50","Milano","2","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","french-grand-prix",1951
+"14","2","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","4","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","belgian-grand-prix",1951
+"15","6","Consalvo Sanesi","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","8","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 500","Ferrari 2.0 L4","belgian-grand-prix",1951
+"16","10","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","12","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","belgian-grand-prix",1951
+"17","22","Pierre Levegh","France","Pierre Levegh","Talbot-Lago T26C","Talbot 23CV","24","Andre Pilette","Belgium","Ecurie Belgique","Talbot-Lago T26C","Talbot 23CV","belgian-grand-prix",1951
+"18","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","belgian-grand-prix",1951
+"19","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","34","Philippe Etancelin","France","Philippe Etancelin","Talbot-Lago T26C-DA","Talbot 23CV","belgian-grand-prix",1951
+"20","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","2","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","belgian-grand-prix",1951
+"21","1","Henry Banks","USA","Lindsey Hopkins","Moore","Offenhauser","2","Walt Faulkner","USA","J C Agajanian","Kuzma","Offenhauser","indianapolis-500",1951
+"22","3","Johnnie Parsons","USA","Ed Walsh","Kurtis Kraft 3000","Offenhauser","4","Cecil Green","USA","M A Walker","Kurtis Kraft 3000","Offenhauser","indianapolis-500",1951
+"23","5","Tony Bettenhausen","USA","Rotary Engineering Corp","Deidt","Offenhauser","6","Duke Dinsmore","USA","Brown Motor Co","Schroeder","Offenhauser","indianapolis-500",1951
+"24","8","Chuck Stevenson","USA","Carl Marchese","Marchese","Offenhauser","9","Jack McGrath","USA","Jack B Hinkle","Kurtis Kraft 3000","Offenhauser","indianapolis-500",1951
+"25","9","Manny Ayulo","USA","Jack B Hinkle","Kurtis Kraft 3000","Offenhauser","10","Bill Schindler","USA","H A Chapman","Kurtis Kraft 2000","Offenhauser","indianapolis-500",1951
+"26","12","Johnny McDowell","USA","Maserati Race Cars","Maserati 8CTF","Offenhauser S","16","Mauri Rose","USA","Howard Keck Co","Deidt","Offenhauser","indianapolis-500",1951
+"27","18","Duke Nalon","USA","Jean Marcenac","Kurtis Kraft","Novi","19","Mack Hellings","USA","C G Tuffanelli & J Derrico","Deidt","Offenhauser","indianapolis-500",1951
+"28","22","George Connor","USA","Lou Moore","Lesovsky","Offenhauser","23","Cliff Griffith","USA","Ludson D Morris","Kurtis Kraft 2000","Offenhauser","indianapolis-500",1951
+"29","25","Sam Hanks","USA","Peter Schmidt","Kurtis Kraft 3000","Offenhauser","26","Joe James","USA","Bob Estes","Watson","Offenhauser","indianapolis-500",1951
+"30","27","Duane Carter","USA","Rotary Engineering Corp","Deidt","Offenhauser","32","Chet Miller","USA","Jean Marcenac","Kurtis Kraft","Novi","indianapolis-500",1951
+"31","44","Walt Brown","USA","Federal Engineering Association","Kurtis Kraft 3000","Offenhauser","48","Rodger Ward","USA","Louis & Bruce Bromme","Bromme","Offenhauser","indianapolis-500",1951
+"32","52","Bobby Ball","USA","John L McDaniel","Schroeder","Offenhauser","57","Andy Linden","USA","George H Leitenberger","Sherman","Offenhauser","indianapolis-500",1951
+"33","59","Fred Agabashian","USA","Grancor Auto Specialists","Kurtis Kraft 3000","Offenhauser","68","Carl Forberg","USA","Louis Rassey","Kurtis Kraft 3000","Offenhauser","indianapolis-500",1951
+"34","69","Gene Force","USA","Brown Motor Co","Kurtis Kraft 2000","Offenhauser","71","Bill Mackey","USA","Karl Hall","Hall","Offenhauser","indianapolis-500",1951
+"35","73","Carl Scarborough","USA","Lee Elkins","Kurtis Kraft 2000","Offenhauser","76","Jimmy Davies","USA","L E Parks","Pawl","Offenhauser","indianapolis-500",1951
+"36","81","Bill Vukovich","USA","Pete Salemi","Trevis","Offenhauser","83","Mike Nazaruk","USA","Jim Robbins","Kurtis Kraft","Offenhauser","indianapolis-500",1951
+"37","98","Troy Ruttman","USA","J C Agajanian","Kurtis Kraft 2000","Offenhauser","99","Lee Wallard","USA","Murrell Belanger","Kurtis Kraft","Offenhauser","indianapolis-500",1951
+"38","2","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","4","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","italian-grand-prix",1951
+"39","6","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 375","Ferrari V12","8","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","italian-grand-prix",1951
+"40","12","Maurice Trintignant","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","12","Chico Landi","Brazil","Francisco Landi","Ferrari 375","Ferrari 375","italian-grand-prix",1951
+"41","14","Robert Manzon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","16","Andre Simon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","italian-grand-prix",1951
+"42","20","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","22","Pierre Levegh","France","Pierre Levegh","Talbot-Lago T26C","Talbot 23CV","italian-grand-prix",1951
+"43","24","Peter Whitehead","Great Britain","Peter Whitehead","Ferrari 125","Ferrari 125","28","Jacques Swaters","Belgium","Ecurie Belgique","Talbot-Lago T26C","Talbot 23CV","italian-grand-prix",1951
+"44","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","30","Reg Parnell","Great Britain","BRM Ltd","BRM P15","BRM 1.5 V16C","italian-grand-prix",1951
+"45","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","italian-grand-prix",1951
+"46","32","Hans Von Stuck","Germany","BRM Ltd","BRM P15","BRM 1.5 V16C","32","Ken Richardson","Great Britain","BRM Ltd","BRM P15","BRM 1.5 V16C","italian-grand-prix",1951
+"47","36","Emmanuel de Graffenried","Switzerland","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","italian-grand-prix",1951
+"48","38","RudI Fischer","Switzerland","Ecurie Espadon","Ferrari 212","Ferrari 212","38","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","italian-grand-prix",1951
+"49","40","Felice Bonetto","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","40","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","italian-grand-prix",1951
+"50","44","Franco Rol","Italy","Automobili OSCA","OSCA 4500G","Osca","2","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","italian-grand-prix",1951
+"51","1","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159B","Alfa Romeo 158","2","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159B","Alfa Romeo 158","british-grand-prix",1951
+"52","3","Consalvo Sanesi","Italy","Alfa Romeo SpA","Alfa Romeo 159B","Alfa Romeo 158","4","Felice Bonetto","Italy","Alfa Romeo SpA","Alfa Romeo 159A","Alfa Romeo 158","british-grand-prix",1951
+"53","5","Joe Kelly","Ireland","Joe Kelly","Alta GP","Alta","6","Reg Parnell","Great Britain","BRM Ltd","BRM P15","BRM 1.5 V16C","british-grand-prix",1951
+"54","7","Peter Walker","Great Britain","BRM Ltd","BRM P15","BRM 1.5 V16C","8","Bob Gerard","Great Britain","Bob Gerard","ERA B","ERA","british-grand-prix",1951
+"55","9","Brian Shawe-Taylor","Great Britain","Brian Shawe-Taylor","ERA B","ERA","10","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","british-grand-prix",1951
+"56","11","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","12","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 375","Ferrari V12","british-grand-prix",1951
+"57","14","Peter Whitehead","Great Britain","G A Vandervell","Ferrari 375","Ferrari 375","16","John James","Great Britain","John James","Maserati 4CLT-48","Maserati 4CL","british-grand-prix",1951
+"58","17","Philip Fotheringham-Parker","Great Britain","Philip Fotheringham-Parker","Maserati 4CL","Maserati","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","british-grand-prix",1951
+"59","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","british-grand-prix",1951
+"60","88","Duncan Hamilton","Great Britain","Duncan Hamilton","Talbot-Lago T26C","Talbot 23CV","1","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159B","Alfa Romeo 158","british-grand-prix",1951
+"61","10","Henri Louveau","France","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","12","George Abecassis","Great Britain","HW Motors","HWM","Alta","swiss-grand-prix",1951
+"62","14","Stirling Moss","Great Britain","HW Motors","HWM","Alta","16","Peter Whitehead","Great Britain","Scuderia Ferrari","Ferrari 125","Ferrari V12","swiss-grand-prix",1951
+"63","18","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","20","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","swiss-grand-prix",1951
+"64","22","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","24","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","swiss-grand-prix",1951
+"65","26","Emmanuel de Graffenried","Switzerland","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","28","Consalvo Sanesi","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","swiss-grand-prix",1951
+"66","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","30","Louis Chiron","Monaco","Scuderia Enrico Platé","Maserati 4CLT-48","Maserati 4CL","swiss-grand-prix",1951
+"67","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","32","Harry Schell","USA","Scuderia Enrico Platé","Maserati 4CLT-48","Maserati 4CL","swiss-grand-prix",1951
+"68","34","Philippe Etancelin","France","Philippe Etancelin","Talbot-Lago T26C-DA","Talbot 23CV","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","swiss-grand-prix",1951
+"69","38","RudI Fischer","Switzerland","Ecurie Espadon","Ferrari 212","Ferrari 212","40","Guy Mairesse","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","swiss-grand-prix",1951
+"70","42","Jose Froilan Gonzalez","Argentina","Ecurie Rosier","Talbot-Lago T26C-GS","Talbot 23CV","44","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","swiss-grand-prix",1951
+"71","52","Peter Hirt","Switzerland","Ecurie Espadon","Veritas Meteor","Veritas","10","Henri Louveau","France","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","swiss-grand-prix",1951
+"72","2","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","4","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","spanish-grand-prix",1951
+"73","6","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 375","Ferrari V12","8","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","spanish-grand-prix",1951
+"74","12","Maurice Trintignant","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","14","Robert Manzon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","spanish-grand-prix",1951
+"75","16","Andre Simon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","18","Prince Bira","Thailand","B Bira","Maserati 4CLT-48","Osca","spanish-grand-prix",1951
+"76","20","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","22","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","spanish-grand-prix",1951
+"77","24","Felice Bonetto","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","26","Emmanuel de Graffenried","Switzerland","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","spanish-grand-prix",1951
+"78","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","spanish-grand-prix",1951
+"79","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","34","Philippe Etancelin","France","Philippe Etancelin","Talbot-Lago T26C-DA","Talbot 23CV","spanish-grand-prix",1951
+"80","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","38","Georges Grignard","France","Georges Grignard","Talbot-Lago T26C-DA","Talbot 23CV","spanish-grand-prix",1951
+"81","44","Paco Godia","Spain","Scuderia Milano","Maserati 4CLT-48","Maserati 4CL","46","Juan Jover","Spain","Scuderia Milano","Maserati 4CLT-48","Maserati 4CL","spanish-grand-prix",1951
+"82","12","Maurice Trintignant","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","14","Robert Manzon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","german-grand-prix",1951
+"83","16","Andre Simon","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","18","Emmanuel de Graffenried","Switzerland","Scuderia Enrico Platé","Maserati 4CLT-48","Maserati 4CL","german-grand-prix",1951
+"84","22","Pierre Levegh","France","Pierre Levegh","Talbot-Lago T26C","Talbot 23CV","28","Jacques Swaters","Belgium","Ecurie Belgique","Talbot-Lago T26C","Talbot 23CV","german-grand-prix",1951
+"85","28","Louis Rosier","France","Ecurie Rosier","Talbot-Lago T26C-DA","Talbot 23CV","30","Louis Chiron","Monaco","Ecurie Rosier","Talbot-Lago T26C","Talbot 23CV","german-grand-prix",1951
+"86","32","Yves Giraud-Cabantous","France","Yves Giraud-Cabantous","Talbot-Lago T26C","Talbot 23CV","34","Philippe Etancelin","France","Philippe Etancelin","Talbot-Lago T26C-DA","Talbot 23CV","german-grand-prix",1951
+"87","36","Johnny Claes","Belgium","Ecurie Belge","Talbot-Lago T26C-DA","Talbot 23CV","38","RudI Fischer","Switzerland","Ecurie Espadon","Ferrari 212","Ferrari 212","german-grand-prix",1951
+"88","71","Alberto Ascari","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","72","Luigi Villoresi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","german-grand-prix",1951
+"89","73","Piero Taruffi","Italy","Scuderia Ferrari","Ferrari 375","Ferrari V12","74","Jose Froilan Gonzalez","Argentina","Scuderia Ferrari","Ferrari 375","Ferrari V12","german-grand-prix",1951
+"90","75","Juan Manuel Fangio","Argentina","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","76","Nino Farina","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","german-grand-prix",1951
+"91","77","Felice Bonetto","Italy","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","78","Paul Pietsch","Germany","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","german-grand-prix",1951
+"92","80","Paul Pietsch","Germany","Alfa Romeo SpA","Alfa Romeo 159","Alfa Romeo 158","88","Duncan Hamilton","Great Britain","Duncan Hamilton","Talbot-Lago T26C","Talbot 23CV","german-grand-prix",1951
+"93","92","Toni Branca","Switzerland","Antonio Branca","Maserati 4CLT-48","Maserati 4CL","12","Maurice Trintignant","France","Equipe Gordini","Simca-Gordini T15","Simca-Gordini 16","german-grand-prix",1951

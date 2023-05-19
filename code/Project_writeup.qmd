@@ -1,0 +1,370 @@
+---
+title: "The origins of Formula 1: A Bayesian Approach"
+subtitle: "Methods of Applied Statistics II: Final Project"
+author: Abraham Morales
+format: pdf
+fontsize: 11pt
+pdf-engine: xelatex
+mainfont: Times New Roman
+execute: 
+  warning: false
+  message: false
+  echo: false
+  cache: false
+---
+```{r}
+#| warning: false
+#| message: false
+library(tidyverse)
+library(tidybayes)
+library(rstan)
+library(lubridate)
+library(here)
+library(viridis)
+library(knitr)
+library(gridExtra)
+```
+```{r}
+data_model <- read.csv("data/data_for_model.csv") |> select(-X)
+```
+## Abstract
+Formula 1 as an event generates a huge amount of data every grand-prix weekend. However, this wasn't always the case. For this work robust models using a Bayesian framework were built in order to estimate the probabilities of a driver scoring points, focusing on the early 1950s, since this was the time were there was the least amount of data available; therefore, benefiting the most from simulation models. The data was scrapped from the FIA's website using R. Two Bayesian Logistic Regression models, a hierarchical and a fixed effects one, were built using Stan and R. To evaluate the models the ELPD criterion and ROC curves were used. Although, the hierarchical model showed greater performance the difference was almost negligible. After these evaluations, it was possible to conclude that only some teams and the starting position can affect the odds of a driver scoring points in a given race. This can be seen as a first analysis in this area, which has a lot of potential for subsequent works.  
+
+
+# Introduction
+In recent years Formula 1 has been gaining popularity and capture a lot of the sports media's attention. It is one of the most expensive sports to participate in, not only for the teams who have to spend hundreds of millions of dollars to built, develop and repair a car but also for the drivers, who to go through the ranks of karting and lower level single sitter competition, who often require a big financial investment from the drivers' families. This is the reason that at the highest level of motorsport extracting every single amount of performance out of the car matters. Engineers often work countless hours in order to reduce lap times by tenths or hundreds of a second, which could very well take them a couple positions higher in the championship; therefore, taking data driven decisions is extremely important. In the current era of Formula 1, each car has around 150 and 300 sensors, and it is estimated that each car generates approximately 300gb of data every grand prix weekend. However, this wasn't always the case. In the beginnings of the sport decisions to improve the car were taken based on feeling rather than data, the engineers could look at lap time, average speed, gap, but not a lot more. The objective of this project is to build a robust model that can predict probabilities of a driver to score points, which in the 1950s were the drivers who finished in the top 5, and the driver who scored the fastest lap of the race.
+
+# Data
+## Data extraction
+Formula 1 datasets are available in the FIA (Fédération Internationale de l'Automobile) website https://fiaresultsandstatistics.motorsportstats.com/, these datasets are for qualifying and race sessions, as well as entries and grand prix specific information like date and circuit. The qualifying and race datasets include positions, total time, best lap time, average speed and interval and gap for each driver. The entries dataset includes information about the engine and car that each team and driver are using. Lap by lap positions of each driver are also available but their analysis is beyond the scope of this project. Since the data is in the form of html tables, the `rvest` package was used to scrape it using `R`. The years of interest range from 1950 to 1955.
+
+## Data cleaning and variables
+As predictors we used qualifying variables, such as average speed, lap time and positions, for the remaining of this manuscript we will refer refer to these instead of race variables, unless otherwise indicated. It was necessary to perform data cleaning in some of these covariates, the following transformations were done:
+
+1. The Indy-500 race was dropped since most regular F1 drivers didn't participated in it.
+2. Observations that had two drivers were separated into two rows, with all other variables equal. (If two drivers shared one car in a race and scored points, these were divided equally between them).
+3. Make sure a driver only appear once in a grand prix, if he had two or more entries the one with the most amount of laps was kept.
+3. Lap time, total race time, and best lap of the race were all character variables, which were transformed to total seconds.
+4. Race position contained "DNF" (Did Not Finish) indicators, which were set to 99, and missing values too.
+5. The engine variable was transformed to only display the manufacturer, leaving out model number and other additional information.
+6. Teams and engines were transformed to factor variable, those that didn't appear more than 10 times in the whole dataset were set to "other". 
+7. Teams that only had one distinct driver in the whole dataset were set to "solo".
+
+For these transformed version of our dataset had 828 rows with 141 different drivers, 17 teams and 13 different engine manufacturers. \
+A lot of drivers had missing variables of average speed and qualifying lap time, most of these were drivers in lesser known teams, but who still participated in a lot of races, therefore, deleting these rows might lead to biases in the estimation. The length of the track was calculated using the speed and lap time variables from the drivers without missing data, using this information speed or lap time was estimated for drivers that had any of these columns missing. However, for some events the speed or time columns were completely missing, but never the two of them for all drivers, so it was necessary to manually add the track length to the dataframe, this was specifically done for the Pedralbes, Aintree Motor Racing and Rouen-Les-Essarts circuits. Drivers with both time and average speed missing had to be dropped. 
+
+## Group variables and graphical summary
+We modeled each observation to have some driver, team and engine effect. The corresponding transformations were made to these variables as mention in the previous subsection. In Table 1 we can see that there's still a lot asymmetry in the team group variable. It was assumed that the team and engine effects stayed the same over time.
+```{r}
+team_entries <- data_model |> 
+  group_by(new_team, year) |> summarise(count = n()) |> 
+  arrange(year) |> 
+  pivot_wider(names_from = year, values_from = count) |> 
+  mutate_all(~ifelse(is.na(.), 0, .))
+
+colnames(team_entries) <- c("Team", "1950", "1951", "1952", "1953", "1954", "1955")
+latex_table <- kable(team_entries, format = "latex",  booktabs = TRUE, 
+                     caption = "Number of appearances of each team per year.")
+asis_output(latex_table)
+```
+In figure 1, we can see how dominant certain engine manufactures were in the early days of the sport, as the proportions of finishing first and second in the race were completely occupied by just four manufactures: Alfa Romeo, Ferrari, Maserati and Mercedes, showing the advantage of modeling this variable hierarchically. 
+```{r}
+#| label: race_pos_eng
+#| fig-cap: "Proportions of race positions by engine manufacturer."
+data_model |> 
+mutate(engine_index = factor(engine_index),
+         race_pos = ifelse(race_pos == 99, NA, race_pos)) |> 
+  ggplot(aes(race_pos, fill = new_engine)) + 
+   geom_bar(aes(y = ..prop..)) + 
+  theme_bw(base_size = 12) + xlab("Race position") +
+  ylab("Proportions") + ggtitle("Race positions by engine manufacturer") + 
+  scale_fill_viridis(discrete = T, name=NULL) + 
+  scale_x_continuous(breaks = seq(2,22,2)) + scale_y_continuous(breaks = seq(0,1.8,0.2)) 
+```
+In Figure 2 we can see the distribution of average speed in qualifying per driver in the 1950 season. This shows how fast was Juan Manuel Fangio, even slightly more than teammate and world champion, Nino Farina. We can also see how unreliable was Alberto Ascari in the Ferrari team. This differences in driver performance could indicate the presence of random effects for each driver.
+```{r}
+#| label: avg_speed_driver
+#| fig-cap: "Average speed per driver in the 1950 season"
+data_model |> 
+  filter(year == 1950) |> 
+  group_by(Driver) |> mutate(appear = n()) |> 
+  filter(appear > 3) |> 
+  ggplot(aes(Kph, Driver, fill = Driver)) + geom_boxplot() + theme_bw() + 
+  theme(legend.position = "none") + scale_fill_viridis(discrete = T)
+```
+# Methods
+The dependent variable of interest is whether a driver scored points or not, this was model as a Bernoulli random variable, in a Bayesian framework. Two Bayesian models were tested, one of which make use of a hierarchical structure. Most of the covariates previously mentioned were included in some iteration of the experiments. \
+
+## Models
+Firstly a simple Bayesian logistic regression model with fixed effects was simulated, which has the following architecture.
+$$
+\begin{aligned}
+y_i | \theta_i &\sim \text{Bernoulli}(\theta_i) \\
+\text{logit}(\theta_i) &= \beta_0 + \beta_1x_{\text{quali-pos}} + \beta_2x_{\text{avg-speed}} +  x^\top_{\text{engine}}\boldsymbol{\beta_3} + \beta_4x_{\text{champ-points}} \\
+\beta_0,\dots,\beta_4&\sim N(0,1)
+\end{aligned}
+$$
+
+Where the outcome $y_i$ is a binary variable indicating whether or not a driver scored points in a given race. The covariates being used are: qualifying position, average speed in qualifying, engine manufacturer the driver is using (categorical variable) and World's Drivers Championship (WDC) points up to the race in the current year. This model is mainly for interpretation purposes, as it can show which variables actually have an impact in the outcome. \
+The expected leave-one-out log-predictive density ($\text{elpd}_{\text{loo}}$) was used to chose the best model, as well as, other performance metrics like area under the ROC curve (see results section).  \
+In second round of experiments a hierarchical model was tested using drivers, teams and engines as hierarchies. The model had the following structure.
+$$
+\begin{aligned}
+y_i | \theta_i &\sim \text{Bernoulli}(\theta_i) \\
+\text{logit}(\theta_i) &= \alpha_0 + \alpha^{\text{driver}}_{d[i]}x_{\text{quali-pos}} + 
+                          \alpha^{\text{team}}_{t[i]} + \alpha_{e[i]}^{\text{engine}}  \\
+\alpha^{\text{driver}}_d &\sim N(\mu_d^{\text{driver}}, \sigma_d^{\text{driver}}) \\
+\alpha^{\text{team}}_t &\sim N(\mu_t^{\text{team}}, \sigma_t^{\text{team}}) \\
+\alpha^{\text{engien}}_e &\sim N(\mu_e^{\text{engine}}, \sigma_e^{\text{engine}}) \\
+\mu_d^{\text{driver}}&\sim N(0,1)\\
+\mu_d^{\text{team}}&\sim N(0,1)\\
+\mu_d^{\text{engine}}&\sim N(0,1)\\
+\sigma_d^{\text{driver}}&\sim N^+(0,1)\\
+\sigma_d^{\text{team}}&\sim N^+(0,1)\\
+\sigma_d^{\text{engine}}&\sim N^+(0,1)\\
+\alpha_0 &\sim N(0,1) 
+\end{aligned}
+$$
+For this model we have two varying intercepts and a varying slope. This is to account for different driver effects in the starting position of a race, as some of the best drivers might be able to finish in the points regardless of their starting grid position. Qualifying position is the only covariate that was modeled since it turn out to be the most significant predictor in the previous model (see the results section) and other variables didn't increase $\text{elpd}_{\text{loo}}$ significantly.  Backward variable selection, with the Leave-One-Out estimated expected log density as the main criterion, was used to leave out track specific covariates, which hindered model performance and convergence.   \
+
+# Results
+```{r}
+n_total <- length(data_model[,1])
+quali_pos <- data_model$Pos
+kph_cent <- data_model$Kph - mean(data_model$Kph)
+engine <- data_model$new_engine
+wdc_points <- data_model$wdc_points_shift
+y <- data_model$points
+
+covariates <- cbind(rep(1, n_total), quali_pos, kph_cent, model.matrix(~engine)[,-1], wdc_points)
+stan_data <- list(
+  N = n_total, K = dim(covariates)[2], 
+  X = covariates,
+  y = y
+)
+simple_mod <- stan(data = stan_data, file = here("Project/stan_code/simple_model.stan"),
+                   chains = 4, iter = 1000, cores = 2)
+```
+
+## Logistic regression with fixed effects
+We can analyzed the sampling behavior of the model using traceplots and pair plots. In figure 8 below we can see that the chains are mixing correctly for all coefficients. Pairs plots were also analyzed (see appendix) and no strange behavior was found.
+
+The estimated mean coefficients for each variable are shown below in the odds scale, with their respective 95% CI's (credible intervals). We can see that the qualifying position, which is also the starting position for the race, has a very significant impact in the odds of scoring points. The lower the starting position the higher the odds of scoring points, which makes sense. For the engine variable the model is taking Alfa Romeo's engine as a baseline. Most engine manufacturers have negative mean estimated coefficients, however, their estimated errors are very large and include 1. We can see that a driver with a Ferrari engine has almost twice the odds of scoring points than one with an Alfa Romeo engine. This is surprising as many smaller teams used Ferrari power units, however, Scuderia Ferrari as a team had highly dominant years in this time period. We can see that the current WDC points had little to no impact in the odds of scoring points in a given race, this might be due to the variability of championship fights from year to year, in some years one driver is very dominant so he will have a lot of points accumulated, while in others the field is much closer togther, resulting in all drivers having less points.
+```{r}
+#| label: coefs_mod1
+#| fig-cap: "Estimated coefficients of Bayesian logistic regression with 95% CI's."
+colnames(covariates)[1] <- "Intercept" 
+variables <- factor(colnames(covariates), levels = colnames(covariates))
+as_tibble(summary(simple_mod)$summary[1:16,c(4, 1, 8)] ) |> exp() |> 
+  mutate(covariate = variables) |> 
+  ggplot(aes(x = mean, y = covariate)) + geom_point() +
+  scale_y_discrete(limits = rev) + 
+  geom_pointinterval(aes(xmin = `2.5%`, xmax = `97.5%`)) +
+  geom_vline(xintercept = 1, col = "red", linetype = 2, linewidth = 0.85) + 
+  xlab("Mean coefficient estimates") + ylab("") + theme_bw(base_size = 12) + 
+  ggtitle("Estimated coefficients from the fixed effects model")
+```
+## Hierarchical model
+```{r}
+n_total <- length(data_model[,1])
+n_years <- length(years)
+n_drivers <- length(unique(data_model$Driver))
+n_races <- length(unique(data_model$Date))
+race_index <- data_model$race_index
+
+stan_data <- list(
+  N = n_total, 
+  D = n_drivers, 
+  T = length(unique(data_model$team_index)), 
+  E = length(unique(data_model$engine_index)), 
+  Y = n_years,
+  race = race_index, driver = data_model$driver_index,
+  team = data_model$team_index, engine = data_model$engine_index, 
+  grid = data_model$Pos, num_races = data_model$exp, finished = data_model$points
+)
+
+model_hierar_1 <- stan(file = here("Project/stan_code/model1.stan"), 
+                      data = stan_data, chains = 4, iter = 5000, cores = 4)
+```
+The sampling was ran for 5000 iterations and 4 chains, up to the writing of this report there are still divergent chains for some of the variables, however, this model is still relevant because is the one that yielded the best results, and it's also the one achieving the largest elpd (see next subsection). We can take a sample of the parameters and look at their traceplots.
+```{r}
+#| label: traceplots-2
+#| fig-cap: "Traceplots of randomly selected parameters of the hierarchical model."
+traceplot(model_hierar_1, pars = c(paste0("driver_effect[",sample(1:140, 3),"]"),
+                                   paste0("engine_effect[",sample(1:10, 3),"]"), 
+                                   paste0("team_effect[",sample(1:10, 3),"]")))
+```
+As we can see the chains are mixing, although these could be improved further. Joint distribution of the parameters look good, with no apparent divergent behavior. In table 2 we can see the estimated coefficients for a few parameters of the hierarchical model with their respective 95% credible intervals and effective sample sizes. Driver effects showed on the table are statistically significant, and negative. This has a similar interpretation as in the simple logistic regression exercise, the lower the starting position the more likely a driver is to score points. Some drivers have higher estimated coefficients than others, as mentioned before this could mean that these drivers will have high chances of scoring points even they start a couple positions higher than the rest of the field, on the other hand, we could say that the fastest drivers will capitalize better on starting on a better positions than the worse drivers; however, the variances is relatively large so it's not possible to make take any conclusions with confidence. \
+Estimated parameters for teams and engine effects turned out to be not statistically significant; however, it's possible to do some interpretation. In table 2 we can see that the Alfa Romeo, Ferrari and Daimler (Mercedes) teams have positive coefficients, this means that drivers racing for those teams are starting with an advantage in the odds of scoring points, while drivers in the Vandervall team or drivers going solo have a disadvantage from the get go. A similar pattern can be observed for the engine coefficients, drivers running Alfa Romeo, Mercedes, Maserati or Ferrari engines are starting with an important advantage, specially Ferrari, while going with an alternative option can severely hurt the drivers' chances of getting a good result.
+```{r}
+drivers_sample <- c(1,3,24, 140, 27)
+teams_sample <- c(1, 8, 16, 4, 11)
+engine_sample <- c(1, 2, 6, 12, 4)
+
+drivers <- data_model |> 
+  distinct(driver_index, Driver) |> 
+  arrange(driver_index) 
+
+teams <- data_model |> 
+  distinct(team_index, new_team) |> 
+  arrange(team_index) 
+
+engines <- data_model |> 
+  distinct(engine_index, new_engine) |> 
+  arrange(engine_index) 
+
+driver_coefs <- cbind(drivers[drivers_sample,2],
+                      summary(model_hierar_1)$summary[drivers_sample+1,])
+
+team_coefs <- cbind(teams[teams_sample,2],
+                      summary(model_hierar_1)$summary[teams_sample+142,])
+
+engine_coefs <- cbind(engines[engine_sample,2],
+                      summary(model_hierar_1)$summary[engine_sample+159,])
+
+sum_hier_1 <- rbind(driver_coefs, team_coefs, engine_coefs)
+
+sum_table <- as_tibble(sum_hier_1 ) |> 
+  mutate(variable = paste(rownames(sum_hier_1), "-", V1)) |> 
+  select(variable, mean, sd, `2.5%`,`50%` ,`97.5%`, n_eff) |> 
+  mutate(across(-variable, ~ round(as.numeric(.), 3)))  
+  
+colnames(sum_table) <- c("Variable", "mean", "sd", "0.025", "0.50", "0.975", "N-eff")
+
+latex_table1 <- kable(sum_table, format="latex",  booktabs = TRUE, 
+                     caption = "Estimated parameters for the hierarchical model with 0.95 CI.")
+
+asis_output(latex_table1)
+```
+
+## Evaluation and comparison
+Posterior predictive checks were made for both models in order to compare how well they are fitting the data. The proportion of drivers who finished in the points starting from a grid position of tenth or lower was chosen as a test statistic. In Figure 5 we can see that the distributions of the models look almost exactly the same, with the true proportion centered around the mean of the distributions. This means that both models are good fit for the data, and that they can predict the outcome variable of interest successfully.
+```{r}
+#| label: ppc-1
+#| fig-cap: "Distribution of the proportions of drivers that score points starting from 10th or lower."
+group_stat <- function(model, title){
+grid_position <- 10
+true_value <- sum(data_model$points == 1 & data_model$Pos > grid_position) / 
+              sum(data_model$Pos > grid_position)
+
+yrep <- extract(model)[["y_rep"]]
+#yrep_samp <- yrep#[sample(nrow(yrep), 1000), ] #optional for sampling
+
+p1 <- data.frame(t(yrep)) |> 
+  mutate(quali_pos = data_model$Pos) |> 
+  mutate(across(-quali_pos, 
+                ~ sum(.x == 1 & quali_pos > grid_position)/sum(quali_pos > grid_position))) |> 
+  sample_n(1) |> 
+  pivot_longer(cols = -quali_pos, names_to = "itereation") |> 
+  ggplot(aes(value, y=..density..)) + 
+  geom_histogram(alpha = 0.5,fill = "lightblue", col = "black", bins = 40) +
+  geom_vline(
+    xintercept = true_value,
+    color = "black", linewidth = 1) + 
+  theme_bw(base_size = 12) + 
+  ggtitle(title) + ylab("") + xlab("Estimates") + 
+  scale_x_continuous(breaks = seq(0.03, 0.12, 0.03), limits = c(0.02, 0.13)) 
+return(p1)
+}
+p1 <- group_stat(simple_mod, "Fixed Effects")
+p2 <- group_stat(model_hierar_1, "Hierarchical Model")
+grid.arrange(p1, p2, nrow = 1)
+```
+
+The models had very similar $\text{elpd}_{\text{loo}}$, there was a difference between them of 2, with a standard error of 3.2, with the hierarchical model having the higher value. Given that the difference is smaller than the standard error, we can't infer with enough statistical confidence that the second model is better. The fixed effects model had all Pareto parameters $k$ lower than 0.5, while the hierarchical model had 22 $k$ parameters higher than 0.5, which accounts for 2.5%.
+```{r}
+loo1 <- loo(simple_mod)
+loo2 <- loo(model_hierar_1)
+```
+In the figure below we can see that both models are performing very similar according to the $\text{elpd}_{\text{loo}}$ criterion. 
+```{r}
+#| label: elpd_loo
+#| fig-cap: "Scatter plot of ELPD values of both models."
+elpd_models <-
+data.frame(elpd_mod1 = loo1$pointwise[,1],
+           elpd_mod2 = loo2$pointwise[,1],
+           points = as.factor(data_model$points),
+           pos = data_model$Pos) 
+p1 <- elpd_models |> 
+  ggplot(aes(x = elpd_mod1, y=elpd_mod2, col = points)) +
+  geom_point(alpha = 0.5) + theme_bw(base_size = 12) + geom_abline() +
+ ggtitle("ELPD values for both models") +
+  theme(legend.position = c(0.06,0.85)) + xlab("Simple Logistic Regression") + 
+  ylab("Hierarchical Model")
+p1
+```
+The receiver operating characteristic (ROC) curve was plotted for both models (see figure 7), although running the models with less iterations showed a significantly higher performance for the hierarchical model, for this final version they are very similar. The area under the curve (auc) was found to be slightly higher for the hierarchical model with 0.8783 than the fixed effects model with 0.8671. Overall this are very good results.
+```{r}
+#| label: roc
+#| fig-cap: "The ROC curve shows a very similar performance between the two models."
+inv.logit <- function(x){
+  return(exp(x)/(1+exp(x)))
+}
+
+false_positive_rate <- function(prediction, true){
+    fp <- sum(true != prediction & prediction == 1)
+    tn <- sum(true == prediction & true == 0)
+    return(fp/(tn+fp))
+}
+
+true_positive_rate <- function(prediction, true){
+  tp <- sum(true == prediction & prediction == 1)
+  fn <- sum(true != prediction & prediction == 0)
+  return(tp/(tp+fn))
+}
+
+roc_curve_tibble <- function(true, pred_probs, name = ""){
+  thresholds <- seq(0,1,0.01)
+  y_pred <- sapply(thresholds, function(x)ifelse(pred_probs > x, 1, 0))
+  tpr <- sapply(1:length(thresholds), function(x)true_positive_rate(y_pred[,x], true))
+  fpr <- sapply(1:length(thresholds), function(x)false_positive_rate(y_pred[,x], true))  
+  model_name <- rep(name, length(thresholds))
+  
+  return(as_tibble(cbind(model_name, fpr, tpr)))
+}
+
+predicted_probabilities <- function(model){
+  thetas <- summary(model)$summary[paste0("theta[",1:n_total,"]"),1]
+  return(inv.logit(thetas))
+}
+
+roc_tibble_1 <- roc_curve_tibble(y, predicted_probabilities(simple_mod), 
+                                 name = "Fixed effects")
+roc_tibble_2 <- roc_curve_tibble(y, predicted_probabilities(model_hierar_1), 
+                                 name = "Hierarchical model")
+
+rbind(roc_tibble_1, roc_tibble_2) |> 
+  mutate(fpr = as.numeric(fpr), tpr = as.numeric(tpr)) |> 
+  ggplot(aes(fpr, tpr, col = model_name)) + 
+  geom_line(linewidth = 0.7) + 
+  theme_bw(base_size = 13) + 
+  theme(legend.position = c(0.85,0.25)) +
+  geom_abline(linetype = 2) + scale_color_discrete(name = NULL) +
+  xlab("False Positive Rate") + ylab("True Positive Rate") + 
+  ggtitle("ROC curve for different model fits")
+```
+```{r}
+fpr_lr <- roc_tibble_1[,2] |> pull() |> as.numeric()
+tpr_lr <- roc_tibble_1[,3] |> pull() |> as.numeric()
+auc_lr <- abs(sum(diff(fpr_lr)*tpr_lr[-1]))
+
+fpr_h <- roc_tibble_2[,2] |> pull() |> as.numeric()
+tpr_h <- roc_tibble_2[,3] |> pull() |> as.numeric()
+auc_h <- abs(sum(diff(fpr_h)*tpr_h[-1]))
+
+```
+# Discussion
+The main goal of this work was to build robust simulation models in a Bayesian framework in order to estimate the probabilities of a driver scoring points, when there's not a lot of useful data available. Although, the scope of this work only covers old formula championships, from 1950 to 1955, models developed for this type of data could also be used to analyze driver performance in the current era of motorsport, for lower level single seater competions or karting, where data availability is trickier. \
+Two Bayesian logistic regression models were fitted, a fixed effects model with four explanatory variables, and hierarchical model with only one explanatory variable with a varying slope and varying intercept depending on team and engine. While there were no apparent convergence issues for the fixed effects model, the hierarchy model had a few parameters whose chains diverged, with somewhat small effective sample sizes. Posterior predictive checks showed that both models are able to predict the outcome variable successfully, with the distributions of the replicated outcomes being very similar for both models. The leave-one-out expected log-predictive density ($\text{elpd}_{\text{loo}}$), is a very useful tool to evaluate model fit, out-of-sample performance and model generalization. This criterion was slightly higher for the hierarchical model, but the difference was too small to make any conclusions. On a similar line the ROC curve showed that the hierarchical model is classifying the data better than the fixed effects model, however, the difference is almost negligible, and one might even prefer simple logistic regression, depending on compute power and time. \
+
+## Future works
+The results obtained from this project aren't necessarily transcendental, it was found that the starting grid position, as well as, having a powerful engine, specifically Ferrari, Mercedes or Maserati highly increase the odds of scoring points. This was already known by anyone with some knowledge of the origins of the sport, without having to build complicated regression models. However, the main take away of this project is the potential that this sort of methods have for future applications. From the results obtained up to this point it is clear that the fixed effects model can't be improve further, adding more explanatory variables hindered model convergence, and didn't significantly improve other performance criteria. However, the hierarchical model has a lot more room for improvement. For this project weakly informative priors were chosen, with more data and time this could be change to better model the true distribution of the data. Experimenting with nested hierarchical models can also be an option, since we have drivers within teams, and teams use only a finite set of engines, the complicated part is that drivers can change teams within a year and teams can be constantly changing engines as well. In this project, limited by time and resources, it was assumed that team and engine effects stay the same over time, which is not the case in real life, specially when dealing with longer time spans. As part of the project lap by lap positions by race of each driver were retrieved, but they were left out of the analysis because of time constrains, this could be a very interesting future application, that is to predict probabilities of winning on a lap by lap basis. Another interesting and important application might be to predict probabilities of severe driver injury or death, since formula 1 used to be a very dangerous sport, and other forms of motorsport still struggle with this problem to this day.
+
+# Appendix
+Simple bayesian logistic regression
+```{r}
+#| label: traceplots-1
+#| fig-cap: "Traceplots for parameters of logistic regression."
+traceplot(simple_mod, pars = c(paste0("beta[",1:16,"]")))
+```
+

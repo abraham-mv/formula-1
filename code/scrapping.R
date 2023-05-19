@@ -123,7 +123,7 @@ for (j in 2:length(years)){
   gps <- get_gp_links(seasons[j])
   temp_df <- tibble_concat(gps, years[j], 12, column_names, "race", include_date = T,
                            write_to_csv = write_to_csv)
-  races_df <- rbind(races_df, temp_df)
+  #races_df <- rbind(races_df, temp_df)
   print(paste0("Downloaded races from: ", years[j]))
 }
 
@@ -134,7 +134,90 @@ for (j in 1:length(years)){
   gps <- get_gp_links(seasons[j])
   entry_links <- lapply(gps, function(x)word_remove(x, c("classification")))
   
-  tibble_temp <- tibble_concat(entry_links, year[j], 12, columns, "entries", 
+  tibble_temp <- tibble_concat(entry_links, years[j], 12, columns, "entries", 
                                write_to_csv = T)
   print(paste0("Downloaded entries from: ", years[j]))
+}
+
+# Download the qualifying datasets for different years
+column_names <- c("Pos", "No", "Driver", "Nat", "Team", "Laps", 
+                  "Time", "Gap", "Interval", "Kph", "Best", "Lap")
+for (j in 1:length(years)){
+  gps <- get_gp_links(seasons[j])
+  quals <- lapply(gps, function(x)get_link(x, "Qualifying"))
+  tibble_qual <- tibble_concat(quals, years[j], 12, column_names, "qual", 
+                               write_to_csv = T)
+  print(paste0("Downloaded qualifying from: ", years[j]))  
+}
+
+# Extracting events dataset from an html table
+if (!dir.exists("data/events")){
+  dir.create("data/events")
+}
+for (i in seq_along(years)){
+  tables <- read_html(seasons[i]) |> 
+    html_table()
+  
+  event <- tables[[3]] |> 
+    select(Date, `Circuit Name`, Event)
+  
+  write.csv(event, paste0("data/events/event_",years[i],".csv"))
+}
+
+
+# This code is made to extract the lap by lap positions
+# It uses 3 nested for loops, which in R is very inefficient
+# Surely there is a better way of doing this
+
+if (!dir.exists("data/laps")){
+  dir.create("data/laps")
+}
+
+for (i in seq_along(years)){
+  # Get the gp links
+  gps <- get_gp_links(seasons[i])
+  # Get the session facts links
+  session_links <- paste0(gsub("\\/classific.*", "", gps), "/session-facts")  
+  
+  for (j in seq_along(session_links)){
+    # Get the hyperlink to go to the lap chart website
+    lap_chart_link <- read_html(session_links[j]) |> 
+      html_nodes(xpath = "//div/a[text() = 'Lap Chart']") |> 
+      html_attr("href")
+    # paste the href to the fia link
+    lap_chart_link <- paste0(link_fia,lap_chart_link) 
+    
+    # It was found by using the inspect mode in the web browser that the chart 
+    # is in div nodes with class '_1BvfV'
+    div_nodes <- read_html(lap_chart_link) |> 
+      html_nodes(xpath = "//div[@class='_1BvfV']") 
+    # Convert from html nodeset to character
+    div_char <- as.character(div_nodes)
+    
+    # Now we will extract the numbers from the chart, this is specially tricky 
+    # since not all cells of the chart contain text attributes (i.e numbers)
+    # some cells are empty, but those are still important for the evolution of the race.
+    # Chat-gpt was very useful for this code. 
+    my_numbers <- character(length(div_char)) 
+    for (k in seq_along(div_char)) {  # three nested for loops in R, I know!
+      # Get the text between regular expressions between <div class=\"_1BvfV\"> and </div>\\n
+      match <- regexpr("(?<=<div class=\"_1BvfV\">)\\d*(?=</div>\\n)", div_char[k], perl = TRUE)
+      if (match > 0) { # If there's something there store it in the vector
+        my_numbers[k] <- substr(div_char[k], match, match + attr(match, "match.length") - 1)
+      } else { # If there isn't anything there store an empty value
+        my_numbers[k] <- " "
+      }
+    }
+    # Get the total number of drivers who started the race, in the header of the lap chart
+    total_drivers <- read_html(lap_chart_link) |> 
+      html_nodes(xpath = "//div[@class='_3DVzL']") |> 
+      html_text() |> tail(1) |> as.numeric()
+    # Make the character vector a matrix of total_drivers columns, just realize that not all charts 
+    lap_chart <- as_tibble(matrix(my_numbers, ncol = total_drivers)) 
+    
+    gp_name <- str_extract(gps[j], "(?<=/results/).*")
+    gp_name <- gsub("\\/classific.*", "", gp_name)
+    
+    write.csv(lap_chart, file = paste0("data/laps/",gp_name,".csv"))
+  }
 }

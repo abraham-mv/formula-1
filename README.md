@@ -7,3 +7,5 @@ Winter 2023 Methods of Applied Statistics II, University of Toronto
 
 Running order:
 scrapping.R -> data_prep.R -> Project_writeup.qmd
+
+Check out my blogpost for a gentle explanation of the [webscraping](https://abraham-mv.github.io/posts/scraping/) and [bayesian analysis](https://abraham-mv.github.io/posts/bayesian_f1/) parts.
